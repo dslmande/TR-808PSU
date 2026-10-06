@@ -34,8 +34,8 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
   Originals wird aus dem Scan gewonnen (Halbtonraster → Maske → Netzgebiete) und dient
   dem Router als Kostenkarte: Kupfer des Originals ist billig, alles andere teuer, die
   Vorderseite fast gesperrt. Das ergibt eine DRC-saubere Platine, die dem Original
-  folgt, wo der Scan es hergibt. **56 % der Bahnlänge liegen im Original-Kupfer**, der
-  Rest ist neu verlegt; das Bild `psu/TR-808PSU_Rev0.1_ueberlagerung.png` zeigt das
+  folgt, wo der Scan es hergibt. **39 % der Bahnlänge liegen im Original-Kupfer**, der
+  Rest ist neu verlegt (breite Bahnen und das Glätten rücken die Wege vom Original ab); das Bild `psu/TR-808PSU_Rev0.1_ueberlagerung.png` zeigt das
   Original-Kupfer (grau) und die Bahnen (rot Lötseite, blau Vorderseite). Eine reine
   Abtastung ohne Router scheitert an der Rasterqualität des Scans (Kurzschlüsse
   zwischen Nachbarbahnen, Padlagen nur auf ±0,3 mm).
@@ -48,13 +48,14 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
 * **ERC:** 0 Verstöße (`psu/TR-808PSU_Rev0.1-erc.rpt`).
 * **DRC:** 0 Fehler, 3 Courtyard-Überlappungen (Warnung: die Bauteile sitzen so
   eng wie im Original); 0 unverbundene Verbindungen; Abgleich Schaltplan–Platine 0.
-* **Netz gegen Kleinspannung:** nach dem Umbau auf die geführten Bahnen noch nicht neu
-  vermessen (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.1.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`); vor einer Fertigung nachholen.
+* **Netz gegen Kleinspannung:** kleinster Abstand 7,9 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.1.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
 * **Netzliste gegen das Schaltbild:** vom Schaltbild von Hand gelesen und am
   Plot gegengesehen; kein unabhängiger Abgleich, siehe „Offen“ in ORIGINAL.md.
-* Bahnbreite 0,25 mm (Ströme unter 0,3 A); keine Masseflächen, wie im Original.
-  Dort, wo der Scan keinen Weg hergibt, laufen einzelne Bahnen über die Vorderseite
-  (Durchkontaktierungen; im Original gab es dafür die Drahtbrücke J1).
+* Bahnbreite 1,0 mm (GND5, GND15 und COL1 wegen enger Pads 0,3 mm), also wie das Original
+  deutlich breiter als ein Signalleiter; geglättet mit dem Skill pcb-glaetten (45°, Bögen,
+  `tools/pcb/glaetten.py`, in `make.py` eingehängt). Keine Masseflächen, wie im Original.
+  Sieben Durchkontaktierungen, sonst läuft alles auf der Lötseite und wenigen Stücken der
+  Vorderseite (im Original gab es dafür die Drahtbrücke J1).
 * **Nicht geprüft:** Aufbau und Messung am Gerät, Fertigung.
 
 ## Erzeugen
@@ -71,7 +72,7 @@ python3 tools/scan/kupfer.py vorlage/Roland_TR-808_Service_Manual.pdf psu/kupfer
 python3 tools/scan/fit2.py psu psu/kupfer.npz          # Bauteile am Scan ausrichten
 python3 tools/psu/build_psu.py psu                      # Plan mit den Bauformen aus dem Abgleich
 python3 tools/scan/leitkarte.py psu psu/kupfer.npz
-python3 tools/pcb/make.py psu --passes=40 --rounds=1 --budget=600
+python3 tools/pcb/make.py psu --passes=60 --rounds=1 --budget=900   # glättet am Ende
 ```
 
 Benötigt KiCad 9 (`kicad-cli`) und Python 3.
