@@ -56,8 +56,9 @@ im Plan ist an dieser Stelle schlecht lesbar, siehe „Offen“.
 
 * Das Original ist **einseitig** (Drahtbrücke J1). Dieser Nachbau ist **zweilagig**,
   die Brücke entfällt; Platinenumriss, Bohrungen, Anschlüsse und Bauteillagen
-  folgen dem Bestückungsplan, **die Leiterbahnen sind neu verlegt**, nicht vom
-  Original abgetastet.
+  folgen dem Bestückungsplan und sind am Scan-Kupfer nachjustiert; die Leiterbahnen
+  **folgen dem Original-Kupfer nur zu 56 %** (Router mit Kostenkarte aus dem Scan, siehe
+  README), der Rest ist neu verlegt.
 * Die beiden Massen (5-V-Zweig: Anschlüsse 15/18; ±15-V-Zweig: 13/21) sind im Plan
   **nicht** verbunden und bleiben es auch hier. Sie treffen sich erst außerhalb
   der Platine, vermutlich auf der Hauptplatine.
@@ -74,6 +75,10 @@ im Plan ist an dieser Stelle schlecht lesbar, siehe „Offen“.
 * **Beschriftung im Bestückungsplan weicht vom Schaltbild ab** bei R1/R7 und
   C9/C10 (die Zuordnung zu Q1/Q2 ist vertauscht). Die Netzliste folgt dem
   Schaltbild; die Bauteile sitzen im Layout nach Funktion.
+* **Rastermaße der Bauteile** (Widerstände, Folienkondensatoren) sind aus dem Kupfer des Scans
+  gewählt (Pads müssen auf Kupferstücken liegen, die nur ein Netz tragen), nicht aus dem Manual;
+  bei vier Kupferstücken bleibt ein Netzkonflikt im Abgleich (AC15_A/AC15_RAW_A u. a., vermutlich
+  zusammenhängendes Kupfer durch die Rasterqualität). Das Manual nennt keine Bauformen.
 * **Gehäuse der Bauteile:** W02 als runde Brücke ø 9,8 mm (Vishay WOG), Elkos nach
   gemessenem Durchmesser; das Manual nennt keine Bauformen.
 * Pinbelegung 2SB596 / 2SD880: B-C-E (MOSPEC bzw. DC Components, Datenblätter
