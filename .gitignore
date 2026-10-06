@@ -1,0 +1,7 @@
+vorlage/
+doku/datenblaetter/
+__pycache__/
+*.pyc
+*.best
+make.log
+.DS_Store
