@@ -7,3 +7,5 @@ make.log
 .DS_Store
 *.kicad_pcb.*
 *.kicad_prl.bak
+psu/.history/
+psu/~*.lck

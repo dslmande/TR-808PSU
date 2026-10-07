@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T11:11:15",
+    "date": "2026-10-07T12:47:17",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -101,29 +101,6 @@
                         "y": 38.12
                     },
                     "uuid": "24f8b881-c760-4778-9e58-c9f35426eda1"
-                }
-            ],
-            "severity": "warning",
-            "type": "courtyards_overlap"
-        },
-        {
-            "description": "Courtyards overlap",
-            "items": [
-                {
-                    "description": "Footprint C8",
-                    "pos": {
-                        "x": 81.82,
-                        "y": 45.04
-                    },
-                    "uuid": "9acb1d37-1817-4ad3-89a4-6f9951ec4b17"
-                },
-                {
-                    "description": "Footprint R4",
-                    "pos": {
-                        "x": 81.58,
-                        "y": 42.5
-                    },
-                    "uuid": "a3217ebc-b749-4a06-bd2f-6c0bc4fe3d61"
                 }
             ],
             "severity": "warning",
@@ -279,121 +256,6 @@
             ],
             "severity": "warning",
             "type": "silk_overlap"
-        },
-        {
-            "description": "Silkscreen clearance",
-            "items": [
-                {
-                    "description": "Rectangle of R4 on F.Silkscreen",
-                    "pos": {
-                        "x": 83.39,
-                        "y": 41.13
-                    },
-                    "uuid": "6bcbacf1-18ea-4621-85b3-d545bb2d9d2a"
-                },
-                {
-                    "description": "Segment of C8 on F.Silkscreen",
-                    "pos": {
-                        "x": 81.45,
-                        "y": 43.92
-                    },
-                    "uuid": "7b984953-24f3-4829-9e8f-75a99f913cac"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_overlap"
-        },
-        {
-            "description": "Silkscreen clearance",
-            "items": [
-                {
-                    "description": "Rectangle of R4 on F.Silkscreen",
-                    "pos": {
-                        "x": 83.39,
-                        "y": 41.13
-                    },
-                    "uuid": "6bcbacf1-18ea-4621-85b3-d545bb2d9d2a"
-                },
-                {
-                    "description": "Segment of C8 on F.Silkscreen",
-                    "pos": {
-                        "x": 84.69,
-                        "y": 43.92
-                    },
-                    "uuid": "710d7526-d55d-45d4-8544-a23b03b50a4e"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_overlap"
-        },
-        {
-            "description": "Silkscreen clipped by solder mask",
-            "items": [
-                {
-                    "description": "Arc of C16 on F.Silkscreen",
-                    "pos": {
-                        "x": 122.27,
-                        "y": 58.17073
-                    },
-                    "uuid": "ce6b2c2a-a817-4090-81e5-f14236fabeb6"
-                },
-                {
-                    "description": "PTH pad 2 [/GND5] of C16",
-                    "pos": {
-                        "x": 122.27,
-                        "y": 59.42
-                    },
-                    "uuid": "d1842f43-a0ff-4a34-9107-b7409204cb7f"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_over_copper"
-        },
-        {
-            "description": "Silkscreen clipped by solder mask",
-            "items": [
-                {
-                    "description": "Arc of C14 on F.Silkscreen",
-                    "pos": {
-                        "x": 122.71,
-                        "y": 27.67073
-                    },
-                    "uuid": "31454892-af3c-4c27-8b67-6e380bb58fd4"
-                },
-                {
-                    "description": "PTH pad 2 [/GND15] of C14",
-                    "pos": {
-                        "x": 122.71,
-                        "y": 28.92
-                    },
-                    "uuid": "3a9a7375-ce12-4bfc-beba-7388cf38190a"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_over_copper"
-        },
-        {
-            "description": "Silkscreen clipped by solder mask",
-            "items": [
-                {
-                    "description": "Arc of C15 on F.Silkscreen",
-                    "pos": {
-                        "x": 122.67,
-                        "y": 38.41073
-                    },
-                    "uuid": "e843d51d-d2c5-4bcd-b550-ad0b981dfa55"
-                },
-                {
-                    "description": "PTH pad 2 [/-15V] of C15",
-                    "pos": {
-                        "x": 122.67,
-                        "y": 39.66
-                    },
-                    "uuid": "6bc4a933-7970-4c49-845b-a6ce85e80c2a"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_over_copper"
         }
     ]
 }
