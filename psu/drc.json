@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T12:47:17",
+    "date": "2026-10-07T13:05:23",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -43,16 +43,16 @@
                 {
                     "description": "Footprint C5",
                     "pos": {
-                        "x": 68.57,
-                        "y": 38.52
+                        "x": 88.41,
+                        "y": 59.165
                     },
                     "uuid": "0f17b99a-d61a-4ce6-93b9-6e65fc4ec3ea"
                 },
                 {
                     "description": "Footprint R3",
                     "pos": {
-                        "x": 69.11,
-                        "y": 42.5
+                        "x": 88.95,
+                        "y": 63.145
                     },
                     "uuid": "8f9bdf27-f37c-45d3-8a89-f4818e47e79e"
                 }
@@ -66,16 +66,16 @@
                 {
                     "description": "Footprint C13",
                     "pos": {
-                        "x": 108.47,
-                        "y": 55.31
+                        "x": 128.31,
+                        "y": 75.955
                     },
                     "uuid": "1553abcb-00aa-4e32-a471-b28da7ca188e"
                 },
                 {
                     "description": "Footprint R1",
                     "pos": {
-                        "x": 99.87,
-                        "y": 70.16
+                        "x": 119.71,
+                        "y": 90.805
                     },
                     "uuid": "38b503cf-e582-4112-946e-bf03fb9fec43"
                 }
@@ -89,16 +89,16 @@
                 {
                     "description": "Footprint C11",
                     "pos": {
-                        "x": 82.04,
-                        "y": 30.26
+                        "x": 101.88,
+                        "y": 50.905
                     },
                     "uuid": "20e3d0a4-7714-41d7-89a8-019a32266271"
                 },
                 {
                     "description": "Footprint C6",
                     "pos": {
-                        "x": 81.98,
-                        "y": 38.12
+                        "x": 101.82,
+                        "y": 58.765
                     },
                     "uuid": "24f8b881-c760-4778-9e58-c9f35426eda1"
                 }
@@ -112,16 +112,16 @@
                 {
                     "description": "Footprint D2",
                     "pos": {
-                        "x": 63.81,
-                        "y": 65.05
+                        "x": 83.65,
+                        "y": 85.695
                     },
                     "uuid": "b5048a6a-6ea9-4343-bfc6-c667fddccd7d"
                 },
                 {
                     "description": "Footprint C10",
                     "pos": {
-                        "x": 74.24,
-                        "y": 69.57
+                        "x": 94.08,
+                        "y": 90.215
                     },
                     "uuid": "c3bbea06-04cc-4341-b23e-343ce715c5b1"
                 }
@@ -135,8 +135,8 @@
                 {
                     "description": "Footprint C13",
                     "pos": {
-                        "x": 108.47,
-                        "y": 55.31
+                        "x": 128.31,
+                        "y": 75.955
                     },
                     "uuid": "1553abcb-00aa-4e32-a471-b28da7ca188e"
                 }
@@ -150,8 +150,8 @@
                 {
                     "description": "Footprint C11",
                     "pos": {
-                        "x": 82.04,
-                        "y": 30.26
+                        "x": 101.88,
+                        "y": 50.905
                     },
                     "uuid": "20e3d0a4-7714-41d7-89a8-019a32266271"
                 }
@@ -165,8 +165,8 @@
                 {
                     "description": "Footprint C12",
                     "pos": {
-                        "x": 107.51,
-                        "y": 35.15
+                        "x": 127.35,
+                        "y": 55.795
                     },
                     "uuid": "79a406ac-4024-4d48-9063-128dcabeaa87"
                 }
@@ -180,8 +180,8 @@
                 {
                     "description": "Footprint C3",
                     "pos": {
-                        "x": 47.46,
-                        "y": 45.19
+                        "x": 67.3,
+                        "y": 65.835
                     },
                     "uuid": "84880aca-fe1a-4df7-84e2-83462fd30e12"
                 }
@@ -195,8 +195,8 @@
                 {
                     "description": "Footprint C14",
                     "pos": {
-                        "x": 122.71,
-                        "y": 26.42
+                        "x": 142.55,
+                        "y": 47.065
                     },
                     "uuid": "a4694efb-6393-4d9d-b395-f573aad50d1b"
                 }
@@ -210,8 +210,8 @@
                 {
                     "description": "Footprint C16",
                     "pos": {
-                        "x": 122.27,
-                        "y": 56.92
+                        "x": 142.11,
+                        "y": 77.565
                     },
                     "uuid": "bf76b114-b7b2-4aaf-ae60-24228d96d7b0"
                 }
@@ -225,8 +225,8 @@
                 {
                     "description": "Footprint C15",
                     "pos": {
-                        "x": 122.67,
-                        "y": 37.16
+                        "x": 142.51,
+                        "y": 57.805
                     },
                     "uuid": "c2eb5b6c-4639-4478-8216-433a7fc4b328"
                 }
@@ -240,16 +240,16 @@
                 {
                     "description": "Rectangle of R3 on F.Silkscreen",
                     "pos": {
-                        "x": 70.92,
-                        "y": 41.13
+                        "x": 90.76,
+                        "y": 61.775
                     },
                     "uuid": "29184174-13be-4600-b1ef-e16c1939d63d"
                 },
                 {
                     "description": "Segment of C5 on F.Silkscreen",
                     "pos": {
-                        "x": 77.59,
-                        "y": 41.14
+                        "x": 97.43,
+                        "y": 61.785
                     },
                     "uuid": "6e0ca043-6f1e-4fbe-9cc0-222f85de80ad"
                 }

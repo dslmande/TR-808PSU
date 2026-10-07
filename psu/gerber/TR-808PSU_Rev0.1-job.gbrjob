@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.2"
     },
-    "CreationDate": "2026-10-07T12:47:17+02:00"
+    "CreationDate": "2026-10-07T13:05:35+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "TR-808PSU_Rev0.1",
       "GUID": "54522d38-3038-4505-9355-5f526576302e",
-      "Revision": "rev?"
+      "Revision": "0.1"
     },
     "Size": {
       "X": 143.0,
