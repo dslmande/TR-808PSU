@@ -4587,7 +4587,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "7253765a-cc1f-4934-829a-297c86df7aa0")
-		(at 51.9 49.335)
+		(at 51.9 47.135)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "IC1"
@@ -6761,7 +6761,7 @@
 				)
 			)
 		)
-		(property "Value" "W02"
+		(property "Value" "W04"
 			(at 2.6035 8.509 0)
 			(layer "F.Fab")
 			(uuid "4694576a-5b63-4032-90ed-d72a7188904a")
@@ -9208,7 +9208,7 @@
 				)
 			)
 		)
-		(property "Value" "W02"
+		(property "Value" "W04"
 			(at 2.6035 8.509 0)
 			(layer "F.Fab")
 			(uuid "4072b71c-f8d0-4442-b07a-85c59c49be15")
@@ -13126,4 +13126,28 @@
 		(uuid "18e688f6-5d8e-46bb-8fe7-25ad17743d0c")
 	)
 	(embedded_fonts no)
+	(segment
+		(start 51.9000 47.1350)
+		(end 51.9000 49.3350)
+		(width 1)
+		(layer "B.Cu")
+		(net "/RAW5")
+		(uuid "6f6e9d65-c1b7-4b83-a342-b7312b48ab5a")
+	)
+	(segment
+		(start 54.4400 47.1350)
+		(end 54.4400 49.3350)
+		(width 1)
+		(layer "B.Cu")
+		(net "/GND5")
+		(uuid "292802fd-01b8-404d-a23e-3256ff6bbbd7")
+	)
+	(segment
+		(start 56.9800 47.1350)
+		(end 56.9800 49.3350)
+		(width 1)
+		(layer "B.Cu")
+		(net "/+5V")
+		(uuid "17cb4cde-2a98-4e67-b3df-c13dc7b93a1d")
+	)
 )

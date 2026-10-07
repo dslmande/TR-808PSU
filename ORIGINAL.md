@@ -79,7 +79,7 @@ im Plan ist an dieser Stelle schlecht lesbar, siehe „Offen“.
   gewählt (Pads müssen auf Kupferstücken liegen, die nur ein Netz tragen), nicht aus dem Manual;
   bei vier Kupferstücken bleibt ein Netzkonflikt im Abgleich (AC15_A/AC15_RAW_A u. a., vermutlich
   zusammenhängendes Kupfer durch die Rasterqualität). Das Manual nennt keine Bauformen.
-* **Gehäuse der Bauteile:** W02 als runde Brücke ø 9,8 mm (Vishay WOG), Elkos nach
+* **Gehäuse der Bauteile:** W04 (400 V; auf dem Gerät 2W04G, das Manual nennt W-02 mit 200 V, die W04 ist ein zulässiger Ersatz) als runde Brücke ø 9,8 mm (Vishay WOG), Elkos nach
   gemessenem Durchmesser; das Manual nennt keine Bauformen.
 * Pinbelegung 2SB596 / 2SD880: B-C-E (MOSPEC bzw. DC Components, Datenblätter
   archive.org/Händler, nicht im Repo).

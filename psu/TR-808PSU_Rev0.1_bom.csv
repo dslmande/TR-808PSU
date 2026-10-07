@@ -8,7 +8,7 @@
 "C11","470u/16V","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","1"
 "C12,C13","1000u/35V","Capacitor_THT:CP_Radial_D16.0mm_P7.50mm","2"
 "C14,C15,C16","10u/16V","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","3"
-"D1,D2","W02","Diode_THT:Diode_Bridge_Round_D9.8mm","2"
+"D1,D2","W04","Diode_THT:Diode_Bridge_Round_D9.8mm","2"
 "D3,D4","1S2473","Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal","2"
 "F1,F2,F3,F4","250mAT","TR808PSU:FuseClip_5x20_TF785","4"
 "IC1","uA7805","Package_TO_SOT_THT:TO-220-3_Vertical","1"
