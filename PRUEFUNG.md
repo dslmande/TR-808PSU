@@ -1,5 +1,10 @@
 # Prüfung gegen Normen und Abnahmekriterien (Rev0.1, Stand 07.10.2026)
 
+**Einordnung:** Das Original stammt von 1984–86 (Service Manual, 3. Auflage Juni 1986; Netzteilplatine PS3116) und wurde
+nie gegen heutige Sicherheitsnormen geprüft. Dieser Nachbau ist eine **1:1-Kopie eines historischen Entwurfs**. Die
+Normwerte unten dienen der Orientierung, wo der alte Entwurf von heutigen Anforderungen abweicht. Sie sind keine
+Abnahmekriterien für die Kopie und kein Anspruch auf Konformität.
+
 Vorgehen nach dem Skill `regelwerk-auf-projekte-anwenden`: erst Normstand recherchieren, dann am
 echten Bestand festmachen, Verifizierung (erfüllt es die Vorgabe?) von Validierung (taugt es für den
 Zweck?) trennen. **Keine Zertifizierung, kein Konformitätsnachweis:** Die Platine ist ein privater Nachbau
@@ -51,7 +56,7 @@ Diese Punkte lassen sich nur am Gerät klären; kein Gate gilt als passiert, sol
 
 | Nr. | Befund | Schwere | Stand |
 |---|---|---|---|
-| 1 | SW_A/SW_B 3,75 mm statt (konservativ) 4 mm | mittel | offen, Abstandsvergrößerung oder Schlitz möglich |
+| 1 | SW_A/SW_B 3,75 mm; heutiger konservativer Wert 4 mm (Abweichung des 1:1-Entwurfs von der heutigen Norm, nicht des Nachbaus vom Original) | mittel | bewusst übernommen; Option Rev0.2 mit größerem Abstand |
 | 2 | Brücken W04 statt W-02 laut Manual (Typ auf der echten Platine 2W04G) | niedrig | bewusst, in ORIGINAL.md und im Plan vermerkt |
 | 3 | Bahnen folgen dem Original-Kupfer nur zu 36 %; zweilagig statt einseitig | niedrig | dokumentiert |
 | 4 | Netzliste von Hand aus dem Schaltbild gelesen, 4 Kupferstücke mit zwei Netzen im Scan-Abgleich | mittel | offen |
@@ -67,7 +72,14 @@ Diese Punkte lassen sich nur am Gerät klären; kein Gate gilt als passiert, sol
 - Datenblätter für 2SB596 (MOSPEC) und 2SD880 (DC Components) wurden für die Pinbelegung gelesen, liegen aber
   nicht im Repo (Urheberrecht).
 
+## Entscheidung offen: 1:1 oder sicherer
+
+Jede Änderung am Layout ist ein neuer Versionsstand (Rev0.2: Dateien umbenennen, Version auf den Bestückungsdruck, eigenes
+Release). Rev0.1 bleibt die historische Kopie. Eine Rev0.2 könnte die Netzseite aufweiten (z. B. SW_A/SW_B über 4 mm,
+Schlitz zwischen Netz und Kleinspannung) und wäre dann keine 1:1-Kopie mehr.
+
 ## Nächster Schritt (Gate vor der Fertigung)
 
-Befund 1 bewerten, dann ein Muster fertigen lassen, Maße gegen die echte Platine abgleichen (Validierung 1)
-und erst danach größere Stückzahlen. Ein Gate wird nicht „vorläufig" passiert.
+Muster fertigen lassen, Maße gegen die echte Platine abgleichen (Validierung 1) und erst danach größere Stückzahlen.
+Ein Gate wird nicht „vorläufig" passiert. Wer die Platine weitergibt oder verkauft, trägt für Sicherheit und CE selbst
+die Verantwortung.
