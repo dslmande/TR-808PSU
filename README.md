@@ -15,6 +15,7 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
 | `psu/gerber/`, `psu/TR-808PSU_Rev0.1_gerber.zip` | Gerber, Bohrdaten, Bestückungsliste |
 | `psu/TR-808PSU_Rev0.1_bom.csv` | Stückliste |
 | `psu/TR-808PSU_Rev0.1_ausdruck_1zu1.pdf` | 1:1-Ausdruck auf A4 quer: Bestückungsseite, Lötseite, Bohrschablone (100 % drucken, Messstrecke prüfen) |
+| `psu/TR-808PSU_Rev0.1_3d_oben.png`, `_3d_schraeg.png` | 3D-Ansichten (KiCad-Raytracing; Regler, Sicherungshalter und Anschlusspins ohne 3D-Modell) |
 | `psu/TR-808PSU_Rev0.1_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | Plots der Platine |
 | `psu/placement.json`, `psu/placement_scan.json` | Bauteilpositionen aus dem Bestückungsplan bzw. am Scan ausgerichtet (mm) |
 | `psu/kupfer.npz`, `psu/leitkarte.npz` | Kupfermaske und Netzgebiete des Originals (aus dem Scan) |
