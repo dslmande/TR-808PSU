@@ -121,10 +121,11 @@ it under `vorlage/` yourself if you want to rerun the scan steps (see
 
 ## License
 
-Hardware files (KiCad project, Gerber, schematic, documents) and the tools in `tools/`:
+Hardware files (KiCad project, Gerber, schematic, documents):
 [CERN-OHL-W-2.0](LICENSE) (CERN Open Hardware Licence v2, weakly reciprocal). The licence
-covers only this redrawing, layout and scripts, not Roland's original design or manual.
-Provided as is, without warranty: see the disclaimer in the licence and the UNTESTED notice above.
+covers only this redrawing and layout, not Roland's original design or manual. The scripts in
+`tools/` are not covered by it and carry no licence of their own. Provided as is, without
+warranty: see the disclaimer in the licence and the UNTESTED notice above.
 
 ## Source and rights
 
