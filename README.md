@@ -119,6 +119,13 @@ Needs KiCad 9/10 (`kicad-cli`) and Python 3. The service manual is not part of t
 it under `vorlage/` yourself if you want to rerun the scan steps (see
 [ORIGINAL.md](ORIGINAL.md)).
 
+## License
+
+Hardware files (KiCad project, Gerber, schematic, documents) and the tools in `tools/`:
+[CERN-OHL-W-2.0](LICENSE) (CERN Open Hardware Licence v2, weakly reciprocal). The licence
+covers only this redrawing, layout and scripts, not Roland's original design or manual.
+Provided as is, without warranty: see the disclaimer in the licence and the UNTESTED notice above.
+
 ## Source and rights
 
 Circuit and dimensions come from the Roland TR-808 service manual (15 June 1981). The manual
