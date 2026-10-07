@@ -48,10 +48,10 @@
   null
  ],
  "C2": [
-  38.17,
-  32.04,
+  38.52,
+  32.44,
   0,
-  null
+  "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
  ],
  "C3": [
   47.46,
@@ -78,10 +78,10 @@
   null
  ],
  "C7": [
-  74.62,
-  46.64,
+  74.17,
+  46.84,
   0,
-  null
+  "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
  ],
  "C8": [
   81.82,
@@ -121,25 +121,25 @@
  ],
  "F1": [
   23.94,
-  76.02,
+  77.42,
   0,
   null
  ],
  "F2": [
   52.77,
-  78.42,
+  77.42,
   0,
   null
  ],
  "F3": [
-  70.3,
-  77.82,
+  69.9,
+  77.42,
   0,
   null
  ],
  "F4": [
-  87.51,
-  78.02,
+  87.31,
+  77.42,
   0,
   null
  ],
@@ -360,34 +360,34 @@
   null
  ],
  "R1": [
-  97.87,
-  68.76,
+  99.87,
+  70.16,
   90,
   null
  ],
  "R2": [
-  68.6,
-  55.64,
+  68.4,
+  56.11,
   90,
-  null
+  "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
  ],
  "R3": [
-  69.18,
-  42.7,
+  69.11,
+  42.5,
   0,
-  null
+  "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
  ],
  "R4": [
-  86.66,
-  42.7,
+  81.58,
+  42.5,
   0,
-  "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+  "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
  ],
  "R5": [
-  93.03,
-  57.22,
+  92.83,
+  57.29,
   90,
-  null
+  "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
  ],
  "R6": [
   94.39,
@@ -396,9 +396,9 @@
   null
  ],
  "R7": [
-  53.22,
+  52.75,
   26.44,
   0,
-  null
+  "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
  ]
 }

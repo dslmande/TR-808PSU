@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T08:42:46",
+    "date": "2026-10-07T08:51:21",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -41,12 +41,58 @@
             "description": "Courtyards overlap",
             "items": [
                 {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 99.87,
+                        "y": 70.16
+                    },
+                    "uuid": "15f67cd3-b389-49c0-bf6d-0ac6eb2641df"
+                },
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 108.47,
+                        "y": 55.31
+                    },
+                    "uuid": "b97e74dd-0efd-4708-91ff-d1df65952465"
+                }
+            ],
+            "severity": "warning",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 82.04,
+                        "y": 30.26
+                    },
+                    "uuid": "2cb4cada-25b7-4d99-9873-76d56285467d"
+                },
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 81.98,
+                        "y": 38.12
+                    },
+                    "uuid": "8a9141d8-0c64-458f-addf-ca5a332f9e2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
                     "description": "Footprint D2",
                     "pos": {
                         "x": 63.81,
                         "y": 65.05
                     },
-                    "uuid": "0a965c27-c661-47b8-adaa-cb7c5de211c4"
+                    "uuid": "4570dfe6-646f-49ae-a92b-0da6b87e3f67"
                 },
                 {
                     "description": "Footprint C10",
@@ -54,7 +100,7 @@
                         "x": 74.24,
                         "y": 69.57
                     },
-                    "uuid": "68e19a27-8d9b-44c4-86cd-4050af312d2a"
+                    "uuid": "92c893e0-e644-428b-8601-202d340ef3c9"
                 }
             ],
             "severity": "warning",
@@ -64,149 +110,66 @@
             "description": "Courtyards overlap",
             "items": [
                 {
-                    "description": "Footprint R3",
+                    "description": "Footprint C8",
                     "pos": {
-                        "x": 69.18,
-                        "y": 42.7
+                        "x": 81.82,
+                        "y": 45.04
                     },
-                    "uuid": "12d776a7-b096-4f28-a5cc-5351bbe35b34"
+                    "uuid": "4ec6ac95-7f9b-4920-9a23-863602436c48"
                 },
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 81.58,
+                        "y": 42.5
+                    },
+                    "uuid": "87b9ae59-120f-429c-8215-492e92f357db"
+                }
+            ],
+            "severity": "warning",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
                 {
                     "description": "Footprint C5",
                     "pos": {
                         "x": 68.57,
                         "y": 38.52
                     },
-                    "uuid": "140a9a60-efd9-42e9-8113-4fb4a7c538eb"
-                }
-            ],
-            "severity": "warning",
-            "type": "courtyards_overlap"
-        },
-        {
-            "description": "Courtyards overlap",
-            "items": [
-                {
-                    "description": "Footprint C6",
-                    "pos": {
-                        "x": 81.98,
-                        "y": 38.12
-                    },
-                    "uuid": "18e2e3bf-af2c-4bce-88bc-2a49d2927131"
+                    "uuid": "5556116e-d567-497a-8c6a-ceae97c0171d"
                 },
                 {
-                    "description": "Footprint C11",
+                    "description": "Footprint R3",
                     "pos": {
-                        "x": 82.04,
-                        "y": 30.26
+                        "x": 69.11,
+                        "y": 42.5
                     },
-                    "uuid": "efd5e182-8961-4283-8321-83231fb9b1ad"
+                    "uuid": "8b12756c-5554-4770-8d0c-ac19bd137d51"
                 }
             ],
             "severity": "warning",
             "type": "courtyards_overlap"
-        },
-        {
-            "description": "Courtyards overlap",
-            "items": [
-                {
-                    "description": "Footprint C2",
-                    "pos": {
-                        "x": 38.17,
-                        "y": 32.04
-                    },
-                    "uuid": "5323cb5f-faac-4e60-b649-c151d592c0cd"
-                },
-                {
-                    "description": "Footprint IC1",
-                    "pos": {
-                        "x": 32.06,
-                        "y": 28.69
-                    },
-                    "uuid": "d938e312-0ab7-48e0-8c22-2e1730426bda"
-                }
-            ],
-            "severity": "warning",
-            "type": "courtyards_overlap"
-        },
-        {
-            "description": "Footprint 'FuseClip_5x20_TF785' does not match copy in library 'TR808PSU'",
-            "items": [
-                {
-                    "description": "Footprint F1",
-                    "pos": {
-                        "x": 23.94,
-                        "y": 76.02
-                    },
-                    "uuid": "01677431-401c-48d4-b15b-fe743f93fb1d"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_mismatch"
-        },
-        {
-            "description": "Footprint 'FuseClip_5x20_TF785' does not match copy in library 'TR808PSU'",
-            "items": [
-                {
-                    "description": "Footprint F3",
-                    "pos": {
-                        "x": 70.3,
-                        "y": 77.82
-                    },
-                    "uuid": "05cf22a6-b8b0-4302-a8a1-04806f088442"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_mismatch"
-        },
-        {
-            "description": "Footprint 'FuseClip_5x20_TF785' does not match copy in library 'TR808PSU'",
-            "items": [
-                {
-                    "description": "Footprint F4",
-                    "pos": {
-                        "x": 87.51,
-                        "y": 78.02
-                    },
-                    "uuid": "ee59894a-3545-47a6-a1d0-41544b2ea1cf"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_mismatch"
-        },
-        {
-            "description": "Footprint 'FuseClip_5x20_TF785' does not match copy in library 'TR808PSU'",
-            "items": [
-                {
-                    "description": "Footprint F2",
-                    "pos": {
-                        "x": 52.77,
-                        "y": 78.42
-                    },
-                    "uuid": "f564d6ad-fdda-44bd-8a34-9d8f7ba1ff2e"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_mismatch"
         },
         {
             "description": "Silkscreen clearance",
             "items": [
                 {
-                    "description": "Segment of C2 on F.Silkscreen",
+                    "description": "Rectangle of R4 on F.Silkscreen",
                     "pos": {
-                        "x": 36.65,
-                        "y": 29.42
+                        "x": 83.39,
+                        "y": 41.13
                     },
-                    "uuid": "b2d9bc84-465a-4a16-be9e-3c1d09079d2f"
+                    "uuid": "83f75716-3a65-440e-a2f0-306ea85c8c5b"
                 },
                 {
-                    "description": "Segment of IC1 on F.Silkscreen",
+                    "description": "Segment of C8 on F.Silkscreen",
                     "pos": {
-                        "x": 39.71,
-                        "y": 25.43
+                        "x": 81.45,
+                        "y": 43.92
                     },
-                    "uuid": "bbacb275-873c-4c66-9e05-956fba028d58"
+                    "uuid": "b1015c17-d504-4ad2-bd3d-f8a28a822f4f"
                 }
             ],
             "severity": "warning",
@@ -216,70 +179,47 @@
             "description": "Silkscreen clearance",
             "items": [
                 {
-                    "description": "Segment of C2 on F.Silkscreen",
+                    "description": "Segment of C5 on F.Silkscreen",
                     "pos": {
-                        "x": 36.65,
-                        "y": 34.66
+                        "x": 77.59,
+                        "y": 41.14
                     },
-                    "uuid": "779fe30e-508d-482d-9523-a49d5248ab1d"
+                    "uuid": "15afa3a4-b60a-4bba-99df-370b0af2a216"
                 },
                 {
-                    "description": "Segment of IC1 on F.Silkscreen",
+                    "description": "Rectangle of R3 on F.Silkscreen",
                     "pos": {
-                        "x": 39.71,
-                        "y": 30.05
+                        "x": 70.92,
+                        "y": 41.13
                     },
-                    "uuid": "77cc3e6b-3236-43be-8702-f4a8852b9ac7"
+                    "uuid": "40a0c908-7fcd-4591-9c03-106eeb4bd57b"
                 }
             ],
             "severity": "warning",
             "type": "silk_overlap"
         },
         {
-            "description": "Silkscreen clipped by solder mask",
+            "description": "Silkscreen clearance",
             "items": [
                 {
-                    "description": "Segment of C2 on F.Silkscreen",
+                    "description": "Rectangle of R4 on F.Silkscreen",
                     "pos": {
-                        "x": 36.65,
-                        "y": 29.42
+                        "x": 83.39,
+                        "y": 41.13
                     },
-                    "uuid": "b2d9bc84-465a-4a16-be9e-3c1d09079d2f"
+                    "uuid": "83f75716-3a65-440e-a2f0-306ea85c8c5b"
                 },
                 {
-                    "description": "PTH pad 3 [/+5V] of IC1",
+                    "description": "Segment of C8 on F.Silkscreen",
                     "pos": {
-                        "x": 37.14,
-                        "y": 28.69
+                        "x": 84.69,
+                        "y": 43.92
                     },
-                    "uuid": "5278c66c-d0e7-483a-9861-6bded9b56a5a"
+                    "uuid": "f941ea8e-e492-4ee7-9e60-a669c1e26245"
                 }
             ],
             "severity": "warning",
-            "type": "silk_over_copper"
-        },
-        {
-            "description": "Silkscreen clipped by solder mask",
-            "items": [
-                {
-                    "description": "Segment of C2 on F.Silkscreen",
-                    "pos": {
-                        "x": 36.65,
-                        "y": 34.66
-                    },
-                    "uuid": "779fe30e-508d-482d-9523-a49d5248ab1d"
-                },
-                {
-                    "description": "PTH pad 3 [/+5V] of IC1",
-                    "pos": {
-                        "x": 37.14,
-                        "y": 28.69
-                    },
-                    "uuid": "5278c66c-d0e7-483a-9861-6bded9b56a5a"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_over_copper"
+            "type": "silk_overlap"
         }
     ]
 }

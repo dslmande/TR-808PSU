@@ -34,7 +34,7 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
   Originals wird aus dem Scan gewonnen (Halbtonraster → Maske → Netzgebiete) und dient
   dem Router als Kostenkarte: Kupfer des Originals ist billig, alles andere teuer, die
   Vorderseite fast gesperrt. Das ergibt eine DRC-saubere Platine, die dem Original
-  folgt, wo der Scan es hergibt. **39 % der Bahnlänge liegen im Original-Kupfer**, der
+  folgt, wo der Scan es hergibt. **38 % der Bahnlänge liegen im Original-Kupfer**, der
   Rest ist neu verlegt (breite Bahnen und das Glätten rücken die Wege vom Original ab); das Bild `psu/TR-808PSU_Rev0.1_ueberlagerung.png` zeigt das
   Original-Kupfer (grau) und die Bahnen (rot Lötseite, blau Vorderseite). Eine reine
   Abtastung ohne Router scheitert an der Rasterqualität des Scans (Kurzschlüsse
@@ -48,14 +48,17 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
 * **ERC:** 0 Verstöße (`psu/TR-808PSU_Rev0.1-erc.rpt`).
 * **DRC:** 0 Fehler, 3 Courtyard-Überlappungen (Warnung: die Bauteile sitzen so
   eng wie im Original); 0 unverbundene Verbindungen; Abgleich Schaltplan–Platine 0.
-* **Netz gegen Kleinspannung:** kleinster Abstand 7,9 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.1.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
+* **Netz gegen Kleinspannung:** kleinster Abstand 6,5 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.1.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
 * **Netzliste gegen das Schaltbild:** vom Schaltbild von Hand gelesen und am
   Plot gegengesehen; kein unabhängiger Abgleich, siehe „Offen“ in ORIGINAL.md.
 * Bahnbreite 1,0 mm (GND5, GND15 und COL1 wegen enger Pads 0,3 mm), also wie das Original
   deutlich breiter als ein Signalleiter; geglättet mit dem Skill pcb-glaetten (45°, Bögen,
   `tools/pcb/glaetten.py`, in `make.py` eingehängt). Keine Masseflächen, wie im Original.
-  Sieben Durchkontaktierungen, sonst läuft alles auf der Lötseite und wenigen Stücken der
+  Acht Durchkontaktierungen, sonst läuft alles auf der Lötseite und wenigen Stücken der
   Vorderseite (im Original gab es dafür die Drahtbrücke J1).
+* **Bestückungsdruck:** nur Bezeichner (keine Werte), Anschlussnummern P1–P22, Elko-Polarität
+  als Balken am Minuspol wie im Original, die vier Sicherungshalter F1–F4 auf einer Höhe
+  (`tools/pcb/silk.py`, `tools/pcb/polaritaet.py`, beide am Ende von `make.py`).
 * **Nicht geprüft:** Aufbau und Messung am Gerät, Fertigung.
 
 ## Erzeugen
