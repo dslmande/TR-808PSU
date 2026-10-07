@@ -26,7 +26,7 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
 * **Schaltung:** Bauteilnummern (C1–C16, R1–R7, D1–D4, F1–F4, Q1, Q2, IC1, IC2),
   Werte und Anschlussnummern 1–22 wie im Original. Der Plan ist wie das Original
   gezeichnet (Netz und Schalter links, Trafo, +5-V-Zweig, ±15-V-Zweig).
-* **Platine:** Umriss, vier Befestigungsbohrungen, sechs Kühlkörperbohrungen,
+* **Platine:** Umriss, vier Befestigungsbohrungen, sechs Kühlkörperbohrungen (je Regler ein Paar, 21,3 mm Abstand, mittig) und drei Schraubenlöcher M3 der Regler,
   Anschlusspins, Sicherungsclips und alle Bauteile an den Stellen des Originals,
   fein am abgetasteten Kupfer des Scans ausgerichtet (`tools/scan/`).
   Das Original ist einseitig mit einer Drahtbrücke; dieser Nachbau ist

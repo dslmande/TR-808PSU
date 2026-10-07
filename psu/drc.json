@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T13:07:12",
+    "date": "2026-10-07T13:12:21",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -57,7 +57,7 @@
                     "uuid": "8f9bdf27-f37c-45d3-8a89-f4818e47e79e"
                 }
             ],
-            "severity": "warning",
+            "severity": "error",
             "type": "courtyards_overlap"
         },
         {
@@ -80,7 +80,7 @@
                     "uuid": "38b503cf-e582-4112-946e-bf03fb9fec43"
                 }
             ],
-            "severity": "warning",
+            "severity": "error",
             "type": "courtyards_overlap"
         },
         {
@@ -103,7 +103,7 @@
                     "uuid": "24f8b881-c760-4778-9e58-c9f35426eda1"
                 }
             ],
-            "severity": "warning",
+            "severity": "error",
             "type": "courtyards_overlap"
         },
         {
@@ -126,8 +126,31 @@
                     "uuid": "c3bbea06-04cc-4341-b23e-343ce715c5b1"
                 }
             ],
-            "severity": "warning",
+            "severity": "error",
             "type": "courtyards_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of R3 on F.Silkscreen",
+                    "pos": {
+                        "x": 90.76,
+                        "y": 61.775
+                    },
+                    "uuid": "29184174-13be-4600-b1ef-e16c1939d63d"
+                },
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 97.43,
+                        "y": 61.785
+                    },
+                    "uuid": "6e0ca043-6f1e-4fbe-9cc0-222f85de80ad"
+                }
+            ],
+            "severity": "error",
+            "type": "silk_overlap"
         },
         {
             "description": "Footprint 'CP_Radial_D16.0mm_P7.50mm' does not match copy in library 'Capacitor_THT'",
@@ -233,29 +256,6 @@
             ],
             "severity": "warning",
             "type": "lib_footprint_mismatch"
-        },
-        {
-            "description": "Silkscreen clearance",
-            "items": [
-                {
-                    "description": "Rectangle of R3 on F.Silkscreen",
-                    "pos": {
-                        "x": 90.76,
-                        "y": 61.775
-                    },
-                    "uuid": "29184174-13be-4600-b1ef-e16c1939d63d"
-                },
-                {
-                    "description": "Segment of C5 on F.Silkscreen",
-                    "pos": {
-                        "x": 97.43,
-                        "y": 61.785
-                    },
-                    "uuid": "6e0ca043-6f1e-4fbe-9cc0-222f85de80ad"
-                }
-            ],
-            "severity": "warning",
-            "type": "silk_overlap"
         }
     ]
 }
