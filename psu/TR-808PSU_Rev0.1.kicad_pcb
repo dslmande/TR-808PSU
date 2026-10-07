@@ -315,7 +315,7 @@
 		(at 76.91 131.625)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P12"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "7557f3ac-c6e8-4226-a329-027f1169736e")
 			(effects
@@ -1634,7 +1634,7 @@
 		(at 42.04 131.625)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P9"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "7db88fcf-801f-4ac5-869b-af4f45406bfc")
 			(effects
@@ -2163,7 +2163,7 @@
 		(at 27.62 117.205)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P8"
-			(at 0.000 -3.250 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "5d5467e0-9c9f-40f4-bd72-50a523f0bd43")
 			(effects
@@ -2421,7 +2421,7 @@
 		(at 66.35 131.625)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P11"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "75be419e-5278-45ff-8881-453e3fee4eb7")
 			(effects
@@ -3178,7 +3178,7 @@
 		(at 151.76 74.015)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P19"
-			(at -12.030 0.000 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "1b8a935c-c8d3-418d-b743-92568e1c3c64")
 			(effects
@@ -3254,7 +3254,7 @@
 		(at 151.76 83.915)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P18"
-			(at -12.030 0.000 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "493167f2-301e-4d57-9613-1f2bba6f2904")
 			(effects
@@ -3436,7 +3436,7 @@
 		(at 151.76 42.945)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P22"
-			(at -12.030 0.000 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "d177ddd8-7196-4af1-a34b-b71e03754c0a")
 			(effects
@@ -4008,7 +4008,7 @@
 		(at 55.8 131.625)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P10"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "19ba33af-50f0-4f9d-8bd8-bb3804f3ae9d")
 			(effects
@@ -4253,7 +4253,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
-			(at -2.200 -0.000 0)
+			(at 12.360 0.000 0)
 			(layer "F.SilkS")
 			(uuid "f9f9f9f4-40be-4b32-9c98-a11e32cf047b")
 			(effects
@@ -5676,7 +5676,7 @@
 		(at 151.76 106.865)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P16"
-			(at -12.030 -10.750 0)
+			(at 0.000 -3.250 0)
 			(layer "F.SilkS")
 			(uuid "67d479e0-9a8f-4a98-ac96-6c89ff72d22a")
 			(effects
@@ -5752,7 +5752,7 @@
 		(at 151.76 61.985)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P20"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "8ac6470a-d4e7-4812-b0fc-10bd3fe634bf")
 			(effects
@@ -6304,7 +6304,7 @@
 		(at 151.76 52.415)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P21"
-			(at -12.030 0.000 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "a716ebb3-1850-4a31-a3df-6fdcf77a299a")
 			(effects
@@ -6560,7 +6560,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C14"
-			(at 1.250 4.680 0)
+			(at 1.250 -4.680 0)
 			(layer "F.SilkS")
 			(uuid "15e1006d-6a50-4988-9db5-b81819c8a131")
 			(effects
@@ -6948,7 +6948,7 @@
 		(at 151.76 116.175)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P15"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "af54b276-726a-4ef0-8077-46f0e9d83888")
 			(effects
@@ -7299,7 +7299,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C16"
-			(at -7.150 9.180 0)
+			(at 1.250 -4.680 0)
 			(layer "F.SilkS")
 			(uuid "b9417174-dc75-4ac7-a8be-ed8c3390ace5")
 			(effects
@@ -7658,7 +7658,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C15"
-			(at 5.150 4.680 0)
+			(at 1.250 -4.680 0)
 			(layer "F.SilkS")
 			(uuid "fa1d58ed-d3aa-4e62-ba29-00374b961202")
 			(effects
@@ -8016,7 +8016,7 @@
 		(at 98.18 131.625)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P14"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "15f021a7-7647-4fd9-b289-4757b6763a2a")
 			(effects
@@ -8542,7 +8542,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
-			(at 5.080 10.370 0)
+			(at 12.360 0.000 0)
 			(layer "F.SilkS")
 			(uuid "fc87f185-7a8e-4385-9da5-42f1db5305ed")
 			(effects
@@ -8803,7 +8803,7 @@
 		(at 87.79 131.625)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P13"
-			(at 0 3.25 0)
+			(at 0.000 3.250 0)
 			(layer "F.SilkS")
 			(uuid "c2525a28-2018-45db-8d47-d79d6ef78704")
 			(effects
@@ -9077,7 +9077,7 @@
 		(at 151.76 93.435)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P17"
-			(at -12.030 0.000 0)
+			(at 0.000 -3.250 0)
 			(layer "F.SilkS")
 			(uuid "db5bd579-0ee3-44a0-a5d1-72fe30d5db0a")
 			(effects
