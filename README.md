@@ -49,7 +49,6 @@ More: [schematic (PDF)](psu/TR-808PSU_Rev0.3_schaltplan.pdf) · [bill of materia
 | `psu/placement.json`, `psu/placement_scan.json` | component positions from the component layout, resp. aligned to the scan (mm) |
 | `psu/kupfer.npz`, `psu/leitkarte.npz` | copper mask and net regions of the original (from the scan) |
 | `psu/TR-808PSU_Rev0.3_ueberlagerung.png` | original copper against the tracks of this board |
-| `tools/` | generators and tool chain (derived from the Oakley project); comments in the scripts are mostly German |
 
 File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German for schematic, printout, copper and guide map.
 
@@ -100,31 +99,14 @@ File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German fo
 
 ## Rebuilding
 
-Schematic and layout are generated, not drawn by hand:
-
-```bash
-python3 tools/pcb/fp_tr808.py psu/TR808PSU.pretty
-python3 tools/psu/build_psu.py psu
-python3 tools/textplace.py psu/TR-808PSU_Rev0.3.kicad_sch
-python3 tools/textfix.py psu/TR-808PSU_Rev0.3.kicad_sch
-python3 tools/pcb/original_placement.py psu
-python3 tools/scan/kupfer.py vorlage/Roland_TR-808_Service_Manual.pdf psu/kupfer.npz
-python3 tools/scan/fit2.py psu psu/kupfer.npz          # align parts to the scan
-python3 tools/psu/build_psu.py psu                      # schematic with the footprints from the fit
-python3 tools/scan/leitkarte.py psu psu/kupfer.npz
-python3 tools/pcb/make.py psu --passes=60 --rounds=1 --budget=900   # smoothing etc. at the end
-```
-
-Needs KiCad 9/10 (`kicad-cli`) and Python 3. The service manual is not part of the repo; put
-it under `vorlage/` yourself if you want to rerun the scan steps (see
-[ORIGINAL.md](ORIGINAL.md)).
+Schematic and layout were generated with a private tool chain that is not part of this
+repo. The KiCad project in `psu/` is complete and needs only KiCad 9/10.
 
 ## License
 
 Hardware files (KiCad project, Gerber, schematic, documents):
 [CERN-OHL-W-2.0](LICENSE) (CERN Open Hardware Licence v2, weakly reciprocal). The licence
-covers only this redrawing and layout, not Roland's original design or manual. The scripts in
-`tools/` are not covered by it and carry no licence of their own. Provided as is, without
+covers only this redrawing and layout, not Roland's original design or manual. Provided as is, without
 warranty: see the disclaimer in the licence and the UNTESTED notice above.
 
 ## Source and rights
