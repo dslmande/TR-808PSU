@@ -60,7 +60,7 @@ File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German fo
 * **Board:** outline, four mounting holes, six heat sink holes (one pair per regulator,
   21.3 mm apart, centred) and three M3 screw holes for the regulators, RM5 screw terminals
   (terminals 1–9), terminal pins (10–22), fuse clips and all components at the positions of
-  the original, fine-tuned to the copper of the scan (`tools/scan/`). The original is single
+  the original, fine-tuned to the copper of the scan. The original is single
   sided with one wire jumper; this rebuild is two-layer.
 * **Tracks: guided by the original, not copied one to one.** The copper of the original is
   extracted from the scan (halftone → mask → net regions) and used as a cost map by the
@@ -81,20 +81,17 @@ File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German fo
 * **DRC (clearance rule 0.25 mm):** 0 errors; warnings only (4 courtyard overlaps, 1
   silkscreen overlap, 7 footprint deviations from the library because of the polarity bars);
   0 unconnected items; schematic/board parity 0.
-* **Mains against low voltage:** more than 8 mm copper to copper (`tools/pcb/netzabstand.py`);
+* **Mains against low voltage:** more than 8 mm copper to copper;
   between the mains conductors 4.0–5.67 mm, adjacent terminal poles 2.4 mm (RM5 pitch).
 * **Netlist against the schematic:** read by hand from the schematic and checked against the
   plot; no independent comparison, see "Open" in [ORIGINAL.md](ORIGINAL.md).
-* Track width 1.0 mm throughout (`tools/pcb/verbreitern.py` also widens the nets the router
-  left narrow; 7 pieces at tight pads stay at 0.5–0.8 mm); hairpins and stubs in pads are
-  removed (`tools/pcb/padstummel.py`); smoothed with the `pcb-glaetten` skill (45°, arcs,
-  `tools/pcb/glaetten.py`, hooked into `make.py`). No copper pours, as in the original. Five
+* Track width 1.0 mm throughout; hairpins and stubs in pads are
+  removed; smoothed (45°, arcs). No copper pours, as in the original. Five
   vias; most of the copper is on the solder side, about 440 mm of track on the component side
   (the original used the wire jumper J1 for this).
 * **Silkscreen:** designators only (no values), terminal numbers 1–9 next to the screw
   terminals and P10–P22 on the pins, electrolytic polarity as a bar at the minus side as in
-  the original, the four fuse holders F1–F4 on one line (`tools/pcb/silk.py`,
-  `tools/pcb/polaritaet.py`, `tools/pcb/klemmennummern.py`, all at the end of `make.py`).
+  the original, the four fuse holders F1–F4 on one line.
 * **Not done:** assembly and measurement on the unit, manufacturing, any safety testing.
 
 ## Rebuilding
