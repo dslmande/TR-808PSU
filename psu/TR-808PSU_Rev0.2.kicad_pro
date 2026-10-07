@@ -470,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TR-808PSU_Rev0.1.kicad_pro",
+    "filename": "TR-808PSU_Rev0.2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -631,7 +631,7 @@
   },
   "sheets": [
     [
-      "e877c8a3-d983-4645-94b3-48d32c5d4018",
+      "aa5960c9-e6e3-4e7a-8854-73e2c131ea16",
       "Root"
     ]
   ],

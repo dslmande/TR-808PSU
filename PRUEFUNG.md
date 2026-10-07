@@ -1,4 +1,4 @@
-# Prüfung gegen Normen und Abnahmekriterien (Rev0.1, Stand 07.10.2026)
+# Prüfung gegen Normen und Abnahmekriterien (Rev0.2, Stand 07.10.2026)
 
 **Einordnung:** Das Original stammt von 1984–86 (Service Manual, 3. Auflage Juni 1986; Netzteilplatine PS3116) und wurde
 nie gegen heutige Sicherheitsnormen geprüft. Dieser Nachbau ist eine **1:1-Kopie eines historischen Entwurfs**. Die
@@ -30,15 +30,15 @@ weitergibt oder verkauft, braucht sie. Das ist keine Rechtsberatung.
 | ERC | 0 Verstöße |
 | DRC (Regel 0,25 mm) | 0 Fehler, 0 offene Verbindungen, 0 Abweichungen Schaltplan/Platine |
 | Netz gegen Kleinspannung (Kupfer-Kupfer) | **über 8 mm** (alle Netzleiter-Netze gegen 5-V- und ±15-V-Netze) |
-| Netz primär gegeneinander (SW_A gegen SW_B) | **3,75 mm** (Pad F1.1 gegen Bahn); nächste Stellen 4,7 mm |
+| Netz primär gegeneinander (SW_A gegen SW_B) | Rev0.2: **5,67 mm** (Bahn gegen Bahn); Rev0.1 hatte 3,75 mm |
 | Netz primär, Anschluss 8 gegen Anschluss 9 | 6,87 mm |
 | Fertigung | Gerber, Bohr- und Positionsdaten, 1:1-Ausdruck vorhanden |
 
 Die Abstandsmessung läuft mit einer temporären Netzklasse von 8 mm (DRC meldet jede Unterschreitung).
-Die 3,75 mm zwischen den beiden geschalteten Netzleitern liegen über 2 mm (Luftstrecke Basisisolierung
+In Rev0.1 lagen die beiden geschalteten Netzleiter 3,75 mm auseinander, also über 2 mm (Luftstrecke Basisisolierung
 in den Suchtreffern), aber **unter 4 mm**, dem konservativsten gefundenen Wert für die Kriechstrecke
-(Materialgruppe III, Verschmutzungsgrad 2, 250 V). Ob sie reicht, hängt von Isolierstoff (CTI), Beschichtung
-und Einsatz ab und ist **offen**.
+(Materialgruppe III, Verschmutzungsgrad 2, 250 V). In Rev0.2 sind es mindestens 5,67 mm; Netz gegen Kleinspannung liegt
+unverändert über 8 mm.
 
 ## Validierung (noch nicht gemacht)
 
@@ -56,7 +56,7 @@ Diese Punkte lassen sich nur am Gerät klären; kein Gate gilt als passiert, sol
 
 | Nr. | Befund | Schwere | Stand |
 |---|---|---|---|
-| 1 | SW_A/SW_B 3,75 mm; heutiger konservativer Wert 4 mm (Abweichung des 1:1-Entwurfs von der heutigen Norm, nicht des Nachbaus vom Original) | mittel | bewusst übernommen; Option Rev0.2 mit größerem Abstand |
+| 1 | Rev0.1: SW_A/SW_B 3,75 mm; heutiger konservativer Wert 4 mm (Abweichung des historischen Entwurfs von der heutigen Norm) | mittel | in Rev0.2 behoben (5,67 mm) |
 | 2 | Brücken W04 statt W-02 laut Manual (Typ auf der echten Platine 2W04G) | niedrig | bewusst, in ORIGINAL.md und im Plan vermerkt |
 | 3 | Bahnen folgen dem Original-Kupfer nur zu 36 %; zweilagig statt einseitig | niedrig | dokumentiert |
 | 4 | Netzliste von Hand aus dem Schaltbild gelesen, 4 Kupferstücke mit zwei Netzen im Scan-Abgleich | mittel | offen |
@@ -72,11 +72,9 @@ Diese Punkte lassen sich nur am Gerät klären; kein Gate gilt als passiert, sol
 - Datenblätter für 2SB596 (MOSPEC) und 2SD880 (DC Components) wurden für die Pinbelegung gelesen, liegen aber
   nicht im Repo (Urheberrecht).
 
-## Entscheidung offen: 1:1 oder sicherer
+## Versionen
 
-Jede Änderung am Layout ist ein neuer Versionsstand (Rev0.2: Dateien umbenennen, Version auf den Bestückungsdruck, eigenes
-Release). Rev0.1 bleibt die historische Kopie. Eine Rev0.2 könnte die Netzseite aufweiten (z. B. SW_A/SW_B über 4 mm,
-Schlitz zwischen Netz und Kleinspannung) und wäre dann keine 1:1-Kopie mehr.
+**Rev0.1** ist die historische 1:1-Kopie (Release `Rev0.1`). **Rev0.2** ändert nur die Netzseite: SW_B ist von SW_A und vom Pad F1.1 weiter weggezogen (SW_A/SW_B mindestens 5,67 mm). Jede Layoutänderung ist ein neuer Versionsstand: Dateien umbenannt, Version auf dem Bestückungsdruck, eigenes Release.
 
 ## Nächster Schritt (Gate vor der Fertigung)
 

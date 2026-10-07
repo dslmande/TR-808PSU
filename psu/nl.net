@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/Users/patrickjoricke/Claude/code/TR-808PSU/psu/TR-808PSU_Rev0.1.kicad_sch")
-		(date "2026-10-07T13:16:09")
+		(source "/Users/patrickjoricke/Claude/code/TR-808PSU/psu/TR-808PSU_Rev0.2.kicad_sch")
+		(date "2026-10-07T15:23:13")
 		(tool "Eeschema 10.0.2")
 		(sheet
 			(number "1")
@@ -11,9 +11,9 @@
 			(title_block
 				(title "Roland TR-808 - Netzteil PS3116 (Nachbau 1:1)")
 				(company "Nachzeichnung nach Roland TR-808 Service Notes, 15.06.1981")
-				(rev "0.1")
-				(date "2026-10-06")
-				(source "TR-808PSU_Rev0.1.kicad_sch")
+				(rev "0.2")
+				(date "2026-10-07")
+				(source "TR-808PSU_Rev0.2.kicad_sch")
 				(comment
 					(number "1")
 					(value "")
@@ -79,7 +79,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -93,7 +93,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "979042d9-79df-4a56-a08e-29c42d823743")
+			(tstamps "bdadf9bd-e557-4c36-9998-f3e549979e72")
 			(units
 				(unit
 					(name "A")
@@ -133,7 +133,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -147,7 +147,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "62da9e02-112a-4cca-9cc3-49f24f90bc8d")
+			(tstamps "2b0509f1-4d38-44f0-a03d-0be20a75470e")
 			(units
 				(unit
 					(name "A")
@@ -187,7 +187,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -201,7 +201,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "24af29b8-b78b-4fc9-b453-01b549a02180")
+			(tstamps "6cc16181-b22c-4233-a449-20cd7b3041d0")
 			(units
 				(unit
 					(name "A")
@@ -241,7 +241,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -255,7 +255,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "713cf1bd-b483-4ad7-bfdf-277ffcd2187e")
+			(tstamps "d7fe1fac-6a30-4302-8059-8b143c308758")
 			(units
 				(unit
 					(name "A")
@@ -295,7 +295,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -309,7 +309,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b9902a8b-07d1-4072-ad6c-0d3d9b708738")
+			(tstamps "6a04f809-63a9-497d-a646-b1e96c8190ca")
 			(units
 				(unit
 					(name "A")
@@ -349,7 +349,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -363,7 +363,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "edc7d999-153d-46af-82dc-d78540ad59a8")
+			(tstamps "782110c2-f8c0-443c-86ce-9dba27deb6cd")
 			(units
 				(unit
 					(name "A")
@@ -403,7 +403,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -417,7 +417,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "43b19327-37cd-49cd-b749-127534eeba16")
+			(tstamps "ca834965-aff4-4064-a676-6148673ece17")
 			(units
 				(unit
 					(name "A")
@@ -457,7 +457,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -471,7 +471,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ed1f3cc5-e42f-404a-ad01-2a6c6b18a4c7")
+			(tstamps "42496e41-681e-4dac-9bcd-7961f0fa3073")
 			(units
 				(unit
 					(name "A")
@@ -511,7 +511,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -525,7 +525,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "eca93c60-55b2-458a-bae4-e4e6f2922999")
+			(tstamps "0a44d2c7-1bb0-432e-8dd5-8e3c87dd827e")
 			(units
 				(unit
 					(name "A")
@@ -565,7 +565,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -579,7 +579,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "63c22228-dbd7-4101-acaf-d247d7f46e45")
+			(tstamps "74c7bec1-0f00-4c30-a15c-2aaa83932509")
 			(units
 				(unit
 					(name "A")
@@ -619,7 +619,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -633,7 +633,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "bbb7cb3e-e658-4064-b750-6f5d300ff5a9")
+			(tstamps "1ef3cd13-0ea8-47bd-97ce-88bf4bfdaf85")
 			(units
 				(unit
 					(name "A")
@@ -673,7 +673,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -687,7 +687,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4785b362-f43b-4ea1-9bdd-5402403a1a06")
+			(tstamps "5ad68de3-cad6-47d1-b68f-0cf3207f4b03")
 			(units
 				(unit
 					(name "A")
@@ -727,7 +727,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -741,7 +741,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c2399b61-c3b3-4540-9a9f-629b7dac68aa")
+			(tstamps "6e61b5c3-0bd2-4d23-aa25-2d9ce86de6ce")
 			(units
 				(unit
 					(name "A")
@@ -781,7 +781,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -795,7 +795,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "cd293c5e-6164-4eaf-90a8-d76b2ece6c7e")
+			(tstamps "34a9f197-5215-4fe4-b2ba-0e13df2e4a30")
 			(units
 				(unit
 					(name "A")
@@ -835,7 +835,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -849,7 +849,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8c442101-2e7a-4de8-8027-bd3bfdf7d089")
+			(tstamps "575cb39d-c2d7-4585-9734-a3c2cbfcd457")
 			(units
 				(unit
 					(name "A")
@@ -889,7 +889,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -903,7 +903,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "381095be-d2a3-4dbf-b774-c89476418758")
+			(tstamps "ae974dee-14d4-40c7-b9cc-00e2a42ce281")
 			(units
 				(unit
 					(name "A")
@@ -943,7 +943,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -957,7 +957,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b4a20c05-4736-4a51-bc13-845b3b742e24")
+			(tstamps "21dd980c-0ace-4d62-a918-ebe3ed0ce3a2")
 			(units
 				(unit
 					(name "A")
@@ -1003,7 +1003,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1017,7 +1017,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c48a3832-8063-444c-8885-263fe42eaf28")
+			(tstamps "e815df69-0d01-477b-81ba-dfcaf3cd6124")
 			(units
 				(unit
 					(name "A")
@@ -1063,7 +1063,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1077,7 +1077,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b4855b94-ee10-41c8-84d6-64c97e27a4cb")
+			(tstamps "8723ae0e-5edb-43e3-bb17-07b70be7536e")
 			(units
 				(unit
 					(name "A")
@@ -1117,7 +1117,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1131,7 +1131,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ce7a6185-4656-46ee-a8d5-38992993e93e")
+			(tstamps "8785da0b-eda4-4617-b40c-b9a52b5a4c79")
 			(units
 				(unit
 					(name "A")
@@ -1171,7 +1171,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1185,7 +1185,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "63c7a7c2-54c6-4dd4-9732-de32fa8e5570")
+			(tstamps "e3e1569d-6f85-4f14-8518-c55b81d66c23")
 			(units
 				(unit
 					(name "A")
@@ -1225,7 +1225,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1239,7 +1239,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e0c1816e-008a-45bb-b93b-61ecb04f442f")
+			(tstamps "e4aa7a61-19a5-4024-9263-02c1bd1eb6a1")
 			(units
 				(unit
 					(name "A")
@@ -1279,7 +1279,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1293,7 +1293,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "39c97bc7-3b0e-4172-be3f-97a0076aed9c")
+			(tstamps "02047076-c40d-462b-bad5-3df12563f60f")
 			(units
 				(unit
 					(name "A")
@@ -1333,7 +1333,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1347,7 +1347,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "efbb8d98-b70d-473c-989d-ed534fad7603")
+			(tstamps "d1b0ac89-d4fe-4b8d-8f6e-4f44a9eedcd7")
 			(units
 				(unit
 					(name "A")
@@ -1387,7 +1387,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1404,7 +1404,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "548d0874-ac31-4fc4-9201-066ae8e68d64")
+			(tstamps "9f6275a5-f658-4dce-a692-0ac582e450c0")
 			(units
 				(unit
 					(name "A")
@@ -1437,7 +1437,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1454,7 +1454,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "03023fd6-d8db-4f05-9b4c-dfbbbf81fa22")
+			(tstamps "7a9c1d48-321f-479b-a1c2-ce1f76d7f9b7")
 			(units
 				(unit
 					(name "A")
@@ -1487,7 +1487,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1504,7 +1504,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5c69d667-89c2-4b3c-bc74-843f3e98ae54")
+			(tstamps "944b0a6c-7daf-4684-8d2e-6e7a2af5f9e2")
 			(units
 				(unit
 					(name "A")
@@ -1537,7 +1537,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1554,7 +1554,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "aafc6dfc-a3f9-4e97-8a23-787508063793")
+			(tstamps "6d1565e3-2089-4a30-8a3b-b4adbbda77d9")
 			(units
 				(unit
 					(name "A")
@@ -1587,7 +1587,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1604,7 +1604,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b675bce6-fa69-4ee9-8faf-688ae485e0f0")
+			(tstamps "80eaea9a-d973-4b35-9653-d80a4ae300b5")
 			(units
 				(unit
 					(name "A")
@@ -1637,7 +1637,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1654,7 +1654,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b2de7269-f81b-4e52-911d-8f7f1835828d")
+			(tstamps "264a3b29-747f-4b1f-a1f2-1b6170b82dc7")
 			(units
 				(unit
 					(name "A")
@@ -1687,7 +1687,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1704,7 +1704,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ba6c6d1e-34b0-424c-9349-464a82bbcee1")
+			(tstamps "f51fa4f6-b577-4d7c-a968-9534492aba60")
 			(units
 				(unit
 					(name "A")
@@ -1737,7 +1737,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1754,7 +1754,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "93190d23-1b42-410b-b332-26fb21226049")
+			(tstamps "a453f191-0036-44bc-9694-5e292e1cd39f")
 			(units
 				(unit
 					(name "A")
@@ -1787,7 +1787,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1804,7 +1804,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "acff2781-1630-498c-874e-d67bfe218f10")
+			(tstamps "35d29ca4-ec00-4232-8f35-14d7dd1fb158")
 			(units
 				(unit
 					(name "A")
@@ -1837,7 +1837,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1854,7 +1854,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "435777f5-0b3e-48fc-b7c6-e83716061272")
+			(tstamps "cd673d4e-258c-4320-82da-2487b956be42")
 			(units
 				(unit
 					(name "A")
@@ -1887,7 +1887,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1904,7 +1904,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d733b6f9-c447-4762-a747-11d0e2c10a16")
+			(tstamps "bef6684f-6f76-4f27-ae47-d994750ed7d8")
 			(units
 				(unit
 					(name "A")
@@ -1937,7 +1937,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1954,7 +1954,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ee64b7c4-8081-45cc-8be6-a39bb9f4d5a5")
+			(tstamps "2a6d00fc-fc52-41c4-acb7-48ee04dee645")
 			(units
 				(unit
 					(name "A")
@@ -1987,7 +1987,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -2004,7 +2004,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "00b29273-e9ed-4bb2-afd8-d7ba148241ed")
+			(tstamps "dc4ce6f4-f185-4856-805d-d6c51a187d00")
 			(units
 				(unit
 					(name "A")
@@ -2037,7 +2037,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -2051,7 +2051,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "bc96a1fe-d7da-40eb-add5-97f68f96dd2d")
+			(tstamps "08f74a3d-21d5-4c05-9507-010b98f17064")
 			(units
 				(unit
 					(name "A")
@@ -2094,13 +2094,13 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "61bb23d6-6322-41a1-a4c4-a843d8cf593b")
+			(tstamps "2b2cd179-e7cd-4198-ad03-9dc435977e10")
 			(units
 				(unit
 					(name "A")
@@ -2176,14 +2176,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "10657880-a02d-4ec7-925a-6522f2683c8b")
+			(tstamps "7000bca0-e5f3-4fa8-8985-ebbf03b06903")
 			(units
 				(unit
 					(name "A")
@@ -2220,14 +2220,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d697f608-308e-477f-ac14-b13adc0f0466")
+			(tstamps "62e6a62c-11c3-486d-aff9-c0aad094ff53")
 			(units
 				(unit
 					(name "A")
@@ -2264,14 +2264,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "28adb727-53fd-4f6b-a123-10cf1c8ef39e")
+			(tstamps "f48f94e0-e59b-411c-b5ab-20d8356143d2")
 			(units
 				(unit
 					(name "A")
@@ -2308,14 +2308,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "41301eef-ac1e-400a-8f26-e426912aa713")
+			(tstamps "8096f44f-26b3-4f8a-87fc-3616394e4e98")
 			(units
 				(unit
 					(name "A")
@@ -2352,14 +2352,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ef9fd1fe-8e57-432c-80b0-0661723b20ed")
+			(tstamps "e32b1ab5-7f62-4150-9d45-9b11dbb4e4b2")
 			(units
 				(unit
 					(name "A")
@@ -2396,14 +2396,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a1d462fb-73d3-4df0-9882-d84e1ed994be")
+			(tstamps "bd975306-3615-49dd-bb95-d458116fafee")
 			(units
 				(unit
 					(name "A")
@@ -2440,14 +2440,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "cd028185-8280-44ec-ab4d-1e3be46064b1")
+			(tstamps "3dc19dbe-7a01-4ba6-8639-36256442be8b")
 			(units
 				(unit
 					(name "A")
@@ -2484,14 +2484,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "204ad616-97f0-470e-b513-478a71c08465")
+			(tstamps "35255ae7-b786-4053-8b2d-6109f93832de")
 			(units
 				(unit
 					(name "A")
@@ -2528,14 +2528,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "60faa02a-4c2c-41ac-a4ae-2b890f32ce0b")
+			(tstamps "de8dedc1-39d8-42d3-b618-e96f2f4e9fb7")
 			(units
 				(unit
 					(name "A")
@@ -2572,14 +2572,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "bd6226a5-9acd-4d62-8099-b637cf7e1bbb")
+			(tstamps "34cac8a2-c90a-40f1-8701-890072186cf8")
 			(units
 				(unit
 					(name "A")
@@ -2616,14 +2616,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "251551a8-111e-49d8-8dd3-e48bbaad85b8")
+			(tstamps "036b7c76-10da-48d1-9fb3-50bdcb3ece5d")
 			(units
 				(unit
 					(name "A")
@@ -2660,14 +2660,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6218d200-b951-483f-b899-eb629c2b0390")
+			(tstamps "ec9e2d5e-f14d-4c2d-b0a4-15ff86159d26")
 			(units
 				(unit
 					(name "A")
@@ -2704,14 +2704,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "dcd32421-ca98-4aa8-9d52-30c3bc8d8192")
+			(tstamps "c05de730-acd7-4024-b30c-17af342d5a73")
 			(units
 				(unit
 					(name "A")
@@ -2748,14 +2748,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a3179c2c-e88d-460b-bae7-566cb06bd05c")
+			(tstamps "50c30a2a-0e5d-491d-9e7c-a100be232bb5")
 			(units
 				(unit
 					(name "A")
@@ -2792,14 +2792,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ac967971-2a3e-4c72-b949-8a12190b7fac")
+			(tstamps "c269d1c7-07de-4244-ad67-41e5a6a1d405")
 			(units
 				(unit
 					(name "A")
@@ -2836,14 +2836,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c66e0248-fb0a-4255-b279-631f5f483f69")
+			(tstamps "64e0301e-df61-4298-964f-0272872239a5")
 			(units
 				(unit
 					(name "A")
@@ -2880,14 +2880,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9468b762-28af-4c79-9910-69d2ebd86e44")
+			(tstamps "5775a242-5cae-4e87-97ca-fa51804adc6e")
 			(units
 				(unit
 					(name "A")
@@ -2924,14 +2924,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ad6472b2-b1f8-4813-9db4-fb0979a48ec9")
+			(tstamps "959857fe-8323-4192-a535-07785d88e7d9")
 			(units
 				(unit
 					(name "A")
@@ -2968,14 +2968,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f3b4be4d-db11-4fa9-bc03-1b4e00a4024a")
+			(tstamps "b08a2721-0e46-472c-a9e4-656622cc79f4")
 			(units
 				(unit
 					(name "A")
@@ -3012,14 +3012,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8a20c7ee-ba4c-4b0a-b8fe-7623cd5c2ba1")
+			(tstamps "b8d7d417-6cb7-4c7a-82e9-dbaa0305274d")
 			(units
 				(unit
 					(name "A")
@@ -3056,14 +3056,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "44db789e-0cf0-4e54-9ffc-2d486a502c51")
+			(tstamps "2d476ca7-f896-49d7-b4fb-9b06cb73e122")
 			(units
 				(unit
 					(name "A")
@@ -3100,14 +3100,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6d81b907-9d10-40af-9973-010747c3aa0a")
+			(tstamps "b897caa9-b9a7-4d02-8436-4618581c5c77")
 			(units
 				(unit
 					(name "A")
@@ -3144,7 +3144,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3158,7 +3158,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "444a0c74-2e6f-4193-9bd7-f5512fc777bd")
+			(tstamps "450b563f-1c8b-479a-995e-97120c8cb1da")
 			(units
 				(unit
 					(name "A")
@@ -3201,7 +3201,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3215,7 +3215,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0b990c64-2aea-4e9a-867e-aadfff9124b6")
+			(tstamps "fb1aa41a-fbff-4c79-b86a-400ba3113e13")
 			(units
 				(unit
 					(name "A")
@@ -3258,7 +3258,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3272,7 +3272,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f492a981-2b43-4471-b5a2-fbaed46cacd8")
+			(tstamps "9cd30000-5636-4392-b1b8-9765bdf7fd46")
 			(units
 				(unit
 					(name "A")
@@ -3312,7 +3312,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3326,7 +3326,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4745aaf4-4266-4987-9d52-12d9c648a357")
+			(tstamps "72d415d0-e5ea-4aa0-a1b0-47437ddb3006")
 			(units
 				(unit
 					(name "A")
@@ -3366,7 +3366,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3380,7 +3380,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5ffae894-b12c-4019-b242-17b30e759716")
+			(tstamps "b4a9ac1a-8ee8-424c-aa88-86ffc59ff501")
 			(units
 				(unit
 					(name "A")
@@ -3420,7 +3420,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3434,7 +3434,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "21595a24-9c11-4fe8-afbc-ffce0c87a7dc")
+			(tstamps "43546ca2-657c-4310-80bc-c22b1ca45ec0")
 			(units
 				(unit
 					(name "A")
@@ -3474,7 +3474,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3488,7 +3488,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "534c5e02-4108-4300-909d-ab0e32c1b241")
+			(tstamps "a346dc11-d30b-4a0d-9cdb-94ff8d91815e")
 			(units
 				(unit
 					(name "A")
@@ -3528,7 +3528,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3542,7 +3542,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b3080a2b-4f9a-4dd9-9732-0fd764651602")
+			(tstamps "f29193e0-b09c-49fa-9c9c-deacba313036")
 			(units
 				(unit
 					(name "A")
@@ -3582,7 +3582,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.1.kicad_sch")
+				(value "TR-808PSU_Rev0.2.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3596,7 +3596,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8ac6e894-d452-412c-860f-0c2128770d66")
+			(tstamps "bc5d362c-212e-4859-9883-1c1d90151358")
 			(units
 				(unit
 					(name "A")
