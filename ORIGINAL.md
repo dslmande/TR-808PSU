@@ -57,7 +57,7 @@ im Plan ist an dieser Stelle schlecht lesbar, siehe „Offen“.
 * Das Original ist **einseitig** (Drahtbrücke J1). Dieser Nachbau ist **zweilagig**,
   die Brücke entfällt; Platinenumriss, Bohrungen, Anschlüsse und Bauteillagen
   folgen dem Bestückungsplan und sind am Scan-Kupfer nachjustiert; die Leiterbahnen
-  **folgen dem Original-Kupfer nur zu 38 %** (Router mit Kostenkarte aus dem Scan, siehe
+  **folgen dem Original-Kupfer nur zu 36 %** (Router mit Kostenkarte aus dem Scan, siehe
   README), der Rest ist neu verlegt.
 * Die beiden Massen (5-V-Zweig: Anschlüsse 15/18; ±15-V-Zweig: 13/21) sind im Plan
   **nicht** verbunden und bleiben es auch hier. Sie treffen sich erst außerhalb

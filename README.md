@@ -34,7 +34,7 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
   Originals wird aus dem Scan gewonnen (Halbtonraster → Maske → Netzgebiete) und dient
   dem Router als Kostenkarte: Kupfer des Originals ist billig, alles andere teuer, die
   Vorderseite fast gesperrt. Das ergibt eine DRC-saubere Platine, die dem Original
-  folgt, wo der Scan es hergibt. **38 % der Bahnlänge liegen im Original-Kupfer**, der
+  folgt, wo der Scan es hergibt. **36 % der Bahnlänge liegen im Original-Kupfer**, der
   Rest ist neu verlegt (breite Bahnen und das Glätten rücken die Wege vom Original ab); das Bild `psu/TR-808PSU_Rev0.1_ueberlagerung.png` zeigt das
   Original-Kupfer (grau) und die Bahnen (rot Lötseite, blau Vorderseite). Eine reine
   Abtastung ohne Router scheitert an der Rasterqualität des Scans (Kurzschlüsse
@@ -55,7 +55,7 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
   gelassenen Netze GND5, GND15 und COL1 auf 1,0 mm, nur 7 Stücke an engen Pads bleiben bei
   0,5–0,8 mm); Haarnadeln und Stummel in den Pads sind entfernt (`tools/pcb/padstummel.py`); geglättet mit dem Skill pcb-glaetten (45°, Bögen,
   `tools/pcb/glaetten.py`, in `make.py` eingehängt). Keine Masseflächen, wie im Original.
-  Acht Durchkontaktierungen, sonst läuft alles auf der Lötseite und wenigen Stücken der
+  Fünf Durchkontaktierungen, sonst läuft das meiste auf der Lötseite, rund 440 mm der Bahnen liegen auf der
   Vorderseite (im Original gab es dafür die Drahtbrücke J1).
 * **Bestückungsdruck:** nur Bezeichner (keine Werte), Anschlussnummern P1–P22, Elko-Polarität
   als Balken am Minuspol wie im Original, die vier Sicherungshalter F1–F4 auf einer Höhe
