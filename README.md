@@ -1,91 +1,106 @@
 # TR-808PSU
 
-Nachbau der Netzteilplatine **PS3116 (PCB 291-405A)** des Roland TR-808 als
-KiCad-Projekt: Schaltplan nach dem Service Manual von 1981, Platine mit
-Umriss, Bohrungen, Anschlüssen und Bauteillagen wie im Bestückungsplan des
-Originals. Variante **220/240 V** (PS3116-054).
+> ## ⚠️ UNTESTED
+>
+> **This board has not been manufactured, assembled or tested.** It has not been checked
+> against the real unit, and it has not been tested against any safety standard. The design
+> is a copy of a historical (1984–86) circuit board. It is connected to **mains voltage
+> (230 V)**, which can kill. Use at your own risk, and only if you know what you are doing.
+> Dimensions are derived from a scan (±3 %), see [VERIFICATION.md](VERIFICATION.md).
 
-Stand: **Rev0.3**, nicht gefertigt, nicht am Gerät erprobt.
+KiCad rebuild of the power supply board **PS3116 (PCB 291-405A)** of the Roland TR-808:
+schematic redrawn from the 1981 service manual, board with outline, holes, terminals and
+component positions taken from the original component layout. **220/240 V** variant
+(PS3116-054).
 
-| Version | Inhalt |
+Current version: **Rev0.3**.
+
+| Version | Contents |
 |---|---|
-| [Rev0.1](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.1) | historische 1:1-Kopie des Originals von 1984–86; geschaltete Netzleiter SW_A/SW_B 3,75 mm auseinander |
-| [Rev0.2](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.2) | wie Rev0.1, aber SW_B auf der Netzseite weiter weg: SW_A/SW_B mindestens 5,67 mm |
-| **Rev0.3** (aktuell) | wie Rev0.2, aber die 230-V-Primärseite (Klemmen 1–9: Netz, Schalter, Trafo-Eingang) mit **Schraubklemmen RM5,0** (Phoenix MKDS 1,5) statt Lötösen; Klemmen 10–22 (Kleinspannung) bleiben Lötösen |
+| [Rev0.1](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.1) | historical 1:1 copy of the 1984–86 original; switched mains conductors SW_A/SW_B 3.75 mm apart |
+| [Rev0.2](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.2) | as Rev0.1, but SW_B moved away on the mains side: SW_A/SW_B at least 5.67 mm apart |
+| **Rev0.3** (current) | as Rev0.2, but the 230 V primary side (terminals 1–9: mains, switch, transformer input) uses **RM5.0 screw terminals** (Phoenix MKDS 1,5) instead of solder lugs; terminals 10–22 (low voltage) stay solder lugs |
 
-## Bilder
+## Pictures
 
-![3D, schräg](psu/TR-808PSU_Rev0.3_3d_schraeg.png)
+![3D, oblique](psu/TR-808PSU_Rev0.3_3d_schraeg.png)
 
-![3D, von oben](psu/TR-808PSU_Rev0.3_3d_oben.png)
+![3D, top](psu/TR-808PSU_Rev0.3_3d_oben.png)
 
-![Platine: Lötseite blau, Vorderseite rot](psu/TR-808PSU_Rev0.3_pcb_ansicht.png)
+![Board: solder side blue, component side red](psu/TR-808PSU_Rev0.3_pcb_ansicht.png)
 
-![Bestückungsdruck](psu/TR-808PSU_Rev0.3_siebdruck.png)
+![Silkscreen](psu/TR-808PSU_Rev0.3_siebdruck.png)
 
-Weitere Unterlagen: [Schaltplan (PDF)](psu/TR-808PSU_Rev0.3_schaltplan.pdf) · [Stückliste](STUECKLISTE.md) ([CSV](psu/TR-808PSU_Rev0.3_bom.csv)) · [1:1-Ausdruck (A4)](psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf) · [Gerber (Zip)](psu/TR-808PSU_Rev0.3_gerber.zip) · [Bestückungsplan (PDF)](psu/TR-808PSU_Rev0.3_assembly.pdf) · [Original-Kupfer gegen Bahnen](psu/TR-808PSU_Rev0.3_ueberlagerung.png) · [Prüfung](PRUEFUNG.md) · [Releases](https://github.com/dslmande/TR-808PSU/releases)
+More: [schematic (PDF)](psu/TR-808PSU_Rev0.3_schaltplan.pdf) · [bill of materials](BOM.md) ([CSV](psu/TR-808PSU_Rev0.3_bom.csv)) · [1:1 printout (A4)](psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf) · [Gerber (zip)](psu/TR-808PSU_Rev0.3_gerber.zip) · [assembly drawing (PDF)](psu/TR-808PSU_Rev0.3_assembly.pdf) · [original copper vs. tracks](psu/TR-808PSU_Rev0.3_ueberlagerung.png) · [verification](VERIFICATION.md) · [releases](https://github.com/dslmande/TR-808PSU/releases)
 
-| Datei | Inhalt |
+## Files
+
+| File | Contents |
 |---|---|
-| [ORIGINAL.md](ORIGINAL.md) | Quelle, Blätter, Varianten, Schaltungsbeschreibung, was offen ist |
-| [PRUEFUNG.md](PRUEFUNG.md) | Normrahmen (DIN EN IEC 62368-1, IEC 60664-1), Verifizierung, Validierung, Befunde, Risiken |
-| `psu/TR-808PSU_Rev0.3.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad-Projekt |
-| `psu/TR-808PSU_Rev0.3_schaltplan.pdf` | Plot des Schaltplans |
-| `psu/gerber/`, `psu/TR-808PSU_Rev0.3_gerber.zip` | Gerber, Bohrdaten, Bestückungsliste |
-| `psu/TR-808PSU_Rev0.3_bom.csv`, [STUECKLISTE.md](STUECKLISTE.md) | Stückliste (CSV und lesbar mit Funktion und Originalteilen) |
-| `psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf` | 1:1-Ausdruck auf A4 quer: Bestückungsseite, Lötseite, Bohrschablone (100 % drucken, Messstrecke prüfen) |
-| `psu/TR-808PSU_Rev0.3_3d_oben.png`, `_3d_schraeg.png` | 3D-Ansichten (KiCad-Raytracing; Regler, Sicherungshalter und Anschlusspins ohne 3D-Modell) |
-| `psu/TR-808PSU_Rev0.3_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | Plots der Platine |
-| `psu/placement.json`, `psu/placement_scan.json` | Bauteilpositionen aus dem Bestückungsplan bzw. am Scan ausgerichtet (mm) |
-| `psu/kupfer.npz`, `psu/leitkarte.npz` | Kupfermaske und Netzgebiete des Originals (aus dem Scan) |
-| `psu/TR-808PSU_Rev0.3_ueberlagerung.png` | Original-Kupfer gegen die Bahnen dieser Platine |
-| `tools/` | Generator und Werkzeugkette (aus dem Oakley-Projekt) |
+| [ORIGINAL.md](ORIGINAL.md) | source, manual pages, variants, circuit description, open points |
+| [VERIFICATION.md](VERIFICATION.md) | standards context (DIN EN IEC 62368-1, IEC 60664-1), verification, validation, findings, risks |
+| [BOM.md](BOM.md), `psu/TR-808PSU_Rev0.3_bom.csv` | bill of materials (readable, with function and original parts; CSV) |
+| `psu/TR-808PSU_Rev0.3.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad project |
+| `psu/TR-808PSU_Rev0.3_schaltplan.pdf` | schematic plot |
+| `psu/gerber/`, `psu/TR-808PSU_Rev0.3_gerber.zip` | Gerber, drill data, position file |
+| `psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf` | 1:1 printout on A4 landscape: component side, solder side, drill template (print at 100 %, check the measuring bar) |
+| `psu/TR-808PSU_Rev0.3_3d_oben.png`, `_3d_schraeg.png` | 3D views (KiCad ray tracing; own models for fuse holders and terminal lugs) |
+| `psu/TR-808PSU_Rev0.3_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | board plots |
+| `psu/placement.json`, `psu/placement_scan.json` | component positions from the component layout, resp. aligned to the scan (mm) |
+| `psu/kupfer.npz`, `psu/leitkarte.npz` | copper mask and net regions of the original (from the scan) |
+| `psu/TR-808PSU_Rev0.3_ueberlagerung.png` | original copper against the tracks of this board |
+| `tools/` | generators and tool chain (derived from the Oakley project); comments in the scripts are mostly German |
 
-## Was „1:1“ hier heißt
+File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German for schematic, printout, copper and guide map.
 
-* **Schaltung:** Bauteilnummern (C1–C16, R1–R7, D1–D4, F1–F4, Q1, Q2, IC1, IC2),
-  Werte und Anschlussnummern 1–22 wie im Original. Der Plan ist wie das Original
-  gezeichnet (Netz und Schalter links, Trafo, +5-V-Zweig, ±15-V-Zweig).
-* **Platine:** Umriss, vier Befestigungsbohrungen, sechs Kühlkörperbohrungen (je Regler ein Paar, 21,3 mm Abstand, mittig) und drei Schraubenlöcher M3 der Regler,
-  Schraubklemmen RM5 (Klemmen 1–9), Anschlusspins (10–22), Sicherungsclips und alle Bauteile an den Stellen des Originals,
-  fein am abgetasteten Kupfer des Scans ausgerichtet (`tools/scan/`).
-  Das Original ist einseitig mit einer Drahtbrücke; dieser Nachbau ist
-  zweilagig.
-* **Leiterbahnen: vom Original geführt, nicht Zug um Zug übernommen.** Das Kupfer des
-  Originals wird aus dem Scan gewonnen (Halbtonraster → Maske → Netzgebiete) und dient
-  dem Router als Kostenkarte: Kupfer des Originals ist billig, alles andere teuer, die
-  Vorderseite fast gesperrt. Das ergibt eine DRC-saubere Platine, die dem Original
-  folgt, wo der Scan es hergibt. **37 % der Bahnlänge liegen im Original-Kupfer**, der
-  Rest ist neu verlegt (breite Bahnen und das Glätten rücken die Wege vom Original ab); das Bild `psu/TR-808PSU_Rev0.3_ueberlagerung.png` zeigt das
-  Original-Kupfer (grau) und die Bahnen (rot Lötseite, blau Vorderseite). Eine reine
-  Abtastung ohne Router scheitert an der Rasterqualität des Scans (Kurzschlüsse
-  zwischen Nachbarbahnen, Padlagen nur auf ±0,3 mm).
-* **Maße** sind aus dem Plan abgeleitet (kein Maßband im Manual), Toleranz grob
-  ±3 %. Vor einer Fertigung gegen eine echte Platine messen. Einzelheiten und
-  weitere offene Punkte in [ORIGINAL.md](ORIGINAL.md).
+## What "1:1" means here
 
-## Prüfstand (Rev0.2, 06.10.2026)
+* **Circuit:** designators (C1–C16, R1–R7, D1–D4, F1–F4, Q1, Q2, IC1, IC2), values and
+  terminal numbers 1–22 as in the original. The schematic is drawn like the original
+  (mains and switch left, transformer, +5 V branch, ±15 V branch).
+* **Board:** outline, four mounting holes, six heat sink holes (one pair per regulator,
+  21.3 mm apart, centred) and three M3 screw holes for the regulators, RM5 screw terminals
+  (terminals 1–9), terminal pins (10–22), fuse clips and all components at the positions of
+  the original, fine-tuned to the copper of the scan (`tools/scan/`). The original is single
+  sided with one wire jumper; this rebuild is two-layer.
+* **Tracks: guided by the original, not copied one to one.** The copper of the original is
+  extracted from the scan (halftone → mask → net regions) and used as a cost map by the
+  router: original copper is cheap, everything else is expensive, the component side is
+  almost blocked. The result is a DRC-clean board that follows the original where the scan
+  allows. **37 % of the track length lies on original copper**, the rest is routed anew
+  (wide tracks and smoothing move the paths away from the original);
+  `psu/TR-808PSU_Rev0.3_ueberlagerung.png` shows the original copper (grey) and the tracks
+  (red solder side, blue component side). Pure tracing without the router fails because of
+  the scan quality (shorts between neighbouring tracks, pad positions only within ±0.3 mm).
+* **Dimensions** are derived from the component layout (the manual has no scale), tolerance
+  about ±3 %. Measure against a real board before manufacturing. Details and further open
+  points in [ORIGINAL.md](ORIGINAL.md).
 
-* **ERC:** 0 Verstöße (`psu/TR-808PSU_Rev0.3-erc.rpt`).
-* **DRC (Abstandsregel 0,25 mm):** 0 Fehler, 3 Courtyard-Überlappungen (Warnung: die Bauteile sitzen so
-  eng wie im Original); 0 unverbundene Verbindungen; Abgleich Schaltplan–Platine 0.
-* **Netz gegen Kleinspannung:** kleinster Abstand 6,5 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.3.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
-* **Netzliste gegen das Schaltbild:** vom Schaltbild von Hand gelesen und am
-  Plot gegengesehen; kein unabhängiger Abgleich, siehe „Offen“ in ORIGINAL.md.
-* Bahnbreite 1,0 mm überall (`tools/pcb/verbreitern.py` setzt auch die vom Router schmal
-  gelassenen Netze GND5, GND15 und COL1 auf 1,0 mm, nur 7 Stücke an engen Pads bleiben bei
-  0,5–0,8 mm); Haarnadeln und Stummel in den Pads sind entfernt (`tools/pcb/padstummel.py`); geglättet mit dem Skill pcb-glaetten (45°, Bögen,
-  `tools/pcb/glaetten.py`, in `make.py` eingehängt). Keine Masseflächen, wie im Original.
-  Fünf Durchkontaktierungen, sonst läuft das meiste auf der Lötseite, rund 440 mm der Bahnen liegen auf der
-  Vorderseite (im Original gab es dafür die Drahtbrücke J1).
-* **Bestückungsdruck:** nur Bezeichner (keine Werte), Anschlussnummern P1–P22, Elko-Polarität
-  als Balken am Minuspol wie im Original, die vier Sicherungshalter F1–F4 auf einer Höhe
-  (`tools/pcb/silk.py`, `tools/pcb/polaritaet.py`, beide am Ende von `make.py`).
-* **Nicht geprüft:** Aufbau und Messung am Gerät, Fertigung.
+## Status (Rev0.3, 7 Oct 2026)
 
-## Erzeugen
+* **ERC:** 0 violations (`psu/TR-808PSU_Rev0.3-erc.rpt`).
+* **DRC (clearance rule 0.25 mm):** 0 errors; warnings only (4 courtyard overlaps, 1
+  silkscreen overlap, 7 footprint deviations from the library because of the polarity bars);
+  0 unconnected items; schematic/board parity 0.
+* **Mains against low voltage:** more than 8 mm copper to copper (`tools/pcb/netzabstand.py`);
+  between the mains conductors 4.0–5.67 mm, adjacent terminal poles 2.4 mm (RM5 pitch).
+* **Netlist against the schematic:** read by hand from the schematic and checked against the
+  plot; no independent comparison, see "Open" in [ORIGINAL.md](ORIGINAL.md).
+* Track width 1.0 mm throughout (`tools/pcb/verbreitern.py` also widens the nets the router
+  left narrow; 7 pieces at tight pads stay at 0.5–0.8 mm); hairpins and stubs in pads are
+  removed (`tools/pcb/padstummel.py`); smoothed with the `pcb-glaetten` skill (45°, arcs,
+  `tools/pcb/glaetten.py`, hooked into `make.py`). No copper pours, as in the original. Five
+  vias; most of the copper is on the solder side, about 440 mm of track on the component side
+  (the original used the wire jumper J1 for this).
+* **Silkscreen:** designators only (no values), terminal numbers 1–9 next to the screw
+  terminals and P10–P22 on the pins, electrolytic polarity as a bar at the minus side as in
+  the original, the four fuse holders F1–F4 on one line (`tools/pcb/silk.py`,
+  `tools/pcb/polaritaet.py`, `tools/pcb/klemmennummern.py`, all at the end of `make.py`).
+* **Not done:** assembly and measurement on the unit, manufacturing, any safety testing.
 
-Plan und Layout werden erzeugt, nicht von Hand gezeichnet:
+## Rebuilding
+
+Schematic and layout are generated, not drawn by hand:
 
 ```bash
 python3 tools/pcb/fp_tr808.py psu/TR808PSU.pretty
@@ -94,21 +109,22 @@ python3 tools/textplace.py psu/TR-808PSU_Rev0.3.kicad_sch
 python3 tools/textfix.py psu/TR-808PSU_Rev0.3.kicad_sch
 python3 tools/pcb/original_placement.py psu
 python3 tools/scan/kupfer.py vorlage/Roland_TR-808_Service_Manual.pdf psu/kupfer.npz
-python3 tools/scan/fit2.py psu psu/kupfer.npz          # Bauteile am Scan ausrichten
-python3 tools/psu/build_psu.py psu                      # Plan mit den Bauformen aus dem Abgleich
+python3 tools/scan/fit2.py psu psu/kupfer.npz          # align parts to the scan
+python3 tools/psu/build_psu.py psu                      # schematic with the footprints from the fit
 python3 tools/scan/leitkarte.py psu psu/kupfer.npz
-python3 tools/pcb/make.py psu --passes=60 --rounds=1 --budget=900   # glättet am Ende
+python3 tools/pcb/make.py psu --passes=60 --rounds=1 --budget=900   # smoothing etc. at the end
 ```
 
-Benötigt KiCad 9 (`kicad-cli`) und Python 3.
+Needs KiCad 9/10 (`kicad-cli`) and Python 3. The service manual is not part of the repo; put
+it under `vorlage/` yourself if you want to rerun the scan steps (see
+[ORIGINAL.md](ORIGINAL.md)).
 
-## Quelle und Rechte
+## Source and rights
 
-Schaltung und Maße stammen aus dem Roland TR-808 Service Manual (15.06.1981).
-Das Manual selbst und die Datenblätter sind nicht Teil dieses Repos
-(Urheberrecht Roland bzw. der Hersteller). Dieses Repo enthält eine eigene
-Nachzeichnung für Reparatur und Nachbau. „Roland“ und „TR-808“ sind Marken von
-Roland Corporation; dieses Projekt ist nicht mit Roland verbunden.
+Circuit and dimensions come from the Roland TR-808 service manual (15 June 1981). The manual
+itself and the data sheets are not part of this repo (copyright of Roland and the
+manufacturers). This repo contains an own redrawing for repair and rebuild. "Roland" and
+"TR-808" are trademarks of Roland Corporation; this project is not affiliated with Roland.
 
-Datenblätter, die zur Prüfung der Pinbelegung dienten:
-2SB596 (MOSPEC), 2SD880 (DC Components), TA7179P und µA7805 (Service Manual Blatt 2).
+Data sheets used to check the pin assignments: 2SB596 (MOSPEC), 2SD880 (DC Components),
+TA7179P and µA7805 (service manual, page 2).
