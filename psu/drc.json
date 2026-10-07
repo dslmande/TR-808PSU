@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T08:51:21",
+    "date": "2026-10-07T08:53:43",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -153,27 +153,109 @@
             "type": "courtyards_overlap"
         },
         {
-            "description": "Silkscreen clearance",
+            "description": "Footprint 'CP_Radial_D12.5mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
             "items": [
                 {
-                    "description": "Rectangle of R4 on F.Silkscreen",
+                    "description": "Footprint C3",
                     "pos": {
-                        "x": 83.39,
-                        "y": 41.13
+                        "x": 47.46,
+                        "y": 45.19
                     },
-                    "uuid": "83f75716-3a65-440e-a2f0-306ea85c8c5b"
-                },
-                {
-                    "description": "Segment of C8 on F.Silkscreen",
-                    "pos": {
-                        "x": 81.45,
-                        "y": 43.92
-                    },
-                    "uuid": "b1015c17-d504-4ad2-bd3d-f8a28a822f4f"
+                    "uuid": "07d571a3-f371-48d8-a71d-1b834c51b349"
                 }
             ],
             "severity": "warning",
-            "type": "silk_overlap"
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D10.0mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 82.04,
+                        "y": 30.26
+                    },
+                    "uuid": "2cb4cada-25b7-4d99-9873-76d56285467d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D16.0mm_P7.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 107.51,
+                        "y": 35.15
+                    },
+                    "uuid": "4bd4d410-0151-4c59-a57d-6d9d4a19468c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D16.0mm_P7.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 108.47,
+                        "y": 55.31
+                    },
+                    "uuid": "b97e74dd-0efd-4708-91ff-d1df65952465"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D5.0mm_P2.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 122.27,
+                        "y": 56.92
+                    },
+                    "uuid": "c292fe9a-c285-446d-a85f-26da3097357d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D5.0mm_P2.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 122.67,
+                        "y": 37.16
+                    },
+                    "uuid": "eb7d848b-b761-4a6a-b5ce-b6637975a9c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D5.0mm_P2.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 122.71,
+                        "y": 26.42
+                    },
+                    "uuid": "f0f19828-4aa3-416f-b7f7-cbaa46a4acb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
         },
         {
             "description": "Silkscreen clearance",
@@ -212,6 +294,29 @@
                 {
                     "description": "Segment of C8 on F.Silkscreen",
                     "pos": {
+                        "x": 81.45,
+                        "y": 43.92
+                    },
+                    "uuid": "b1015c17-d504-4ad2-bd3d-f8a28a822f4f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of R4 on F.Silkscreen",
+                    "pos": {
+                        "x": 83.39,
+                        "y": 41.13
+                    },
+                    "uuid": "83f75716-3a65-440e-a2f0-306ea85c8c5b"
+                },
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
                         "x": 84.69,
                         "y": 43.92
                     },
@@ -220,6 +325,75 @@
             ],
             "severity": "warning",
             "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc of C16 on F.Silkscreen",
+                    "pos": {
+                        "x": 122.27,
+                        "y": 58.17073
+                    },
+                    "uuid": "c5c4d35a-5a81-459a-a73b-240ee269768d"
+                },
+                {
+                    "description": "PTH pad 2 [/GND5] of C16",
+                    "pos": {
+                        "x": 122.27,
+                        "y": 59.42
+                    },
+                    "uuid": "8ddca286-f611-4a02-8f10-ad83b4a77be5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc of C14 on F.Silkscreen",
+                    "pos": {
+                        "x": 122.71,
+                        "y": 27.67073
+                    },
+                    "uuid": "97524157-59da-48d0-a4f9-b807eec37d36"
+                },
+                {
+                    "description": "PTH pad 2 [/GND15] of C14",
+                    "pos": {
+                        "x": 122.71,
+                        "y": 28.92
+                    },
+                    "uuid": "47ca91e3-d696-45d4-b5ee-cc1e7c38effe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Arc of C15 on F.Silkscreen",
+                    "pos": {
+                        "x": 122.67,
+                        "y": 38.41073
+                    },
+                    "uuid": "83807576-598f-4b8f-b1e9-c792c8bf62de"
+                },
+                {
+                    "description": "PTH pad 2 [/-15V] of C15",
+                    "pos": {
+                        "x": 122.67,
+                        "y": 39.66
+                    },
+                    "uuid": "25eb5126-f824-4ca1-a466-b1e816a6f03f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
         }
     ]
 }
