@@ -58,7 +58,7 @@ Diese Punkte lassen sich nur am Gerät klären; kein Gate gilt als passiert, sol
 |---|---|---|---|
 | 1 | Rev0.1: SW_A/SW_B 3,75 mm; heutiger konservativer Wert 4 mm (Abweichung des historischen Entwurfs von der heutigen Norm) | mittel | in Rev0.2 behoben (5,67 mm) |
 | 2 | Brücken W04 statt W-02 laut Manual (Typ auf der echten Platine 2W04G) | niedrig | bewusst, in ORIGINAL.md und im Plan vermerkt |
-| 3 | Bahnen folgen dem Original-Kupfer nur zu 36 %; zweilagig statt einseitig | niedrig | dokumentiert |
+| 3 | Bahnen folgen dem Original-Kupfer nur zu 37 %; zweilagig statt einseitig | niedrig | dokumentiert |
 | 4 | Netzliste von Hand aus dem Schaltbild gelesen, 4 Kupferstücke mit zwei Netzen im Scan-Abgleich | mittel | offen |
 | 5 | 3D-Modelle für Sicherungshalter und Anschlussfahnen selbst gebaut, Maße geschätzt | niedrig | dokumentiert |
 | 6 | DRC-Warnungen: 4 Courtyards, 1 Siebdruck, 7 Footprint-Abweichungen (Elko-Balken) | niedrig | bewusst |

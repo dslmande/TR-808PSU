@@ -42,7 +42,7 @@ Stand: **Rev0.2**, nicht gefertigt, nicht am Gerät erprobt.
   Originals wird aus dem Scan gewonnen (Halbtonraster → Maske → Netzgebiete) und dient
   dem Router als Kostenkarte: Kupfer des Originals ist billig, alles andere teuer, die
   Vorderseite fast gesperrt. Das ergibt eine DRC-saubere Platine, die dem Original
-  folgt, wo der Scan es hergibt. **36 % der Bahnlänge liegen im Original-Kupfer**, der
+  folgt, wo der Scan es hergibt. **37 % der Bahnlänge liegen im Original-Kupfer**, der
   Rest ist neu verlegt (breite Bahnen und das Glätten rücken die Wege vom Original ab); das Bild `psu/TR-808PSU_Rev0.2_ueberlagerung.png` zeigt das
   Original-Kupfer (grau) und die Bahnen (rot Lötseite, blau Vorderseite). Eine reine
   Abtastung ohne Router scheitert an der Rasterqualität des Scans (Kurzschlüsse
