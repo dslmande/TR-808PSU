@@ -13,6 +13,18 @@ Stand: **Rev0.3**, nicht gefertigt, nicht am Gerät erprobt.
 | [Rev0.2](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.2) | wie Rev0.1, aber SW_B auf der Netzseite weiter weg: SW_A/SW_B mindestens 5,67 mm |
 | **Rev0.3** (aktuell) | wie Rev0.2, aber die 230-V-Primärseite (Klemmen 1–9: Netz, Schalter, Trafo-Eingang) mit **Schraubklemmen RM5,0** (Phoenix MKDS 1,5) statt Lötösen; Klemmen 10–22 (Kleinspannung) bleiben Lötösen |
 
+## Bilder
+
+![3D, schräg](psu/TR-808PSU_Rev0.3_3d_schraeg.png)
+
+![3D, von oben](psu/TR-808PSU_Rev0.3_3d_oben.png)
+
+![Platine: Lötseite blau, Vorderseite rot](psu/TR-808PSU_Rev0.3_pcb_ansicht.png)
+
+![Bestückungsdruck](psu/TR-808PSU_Rev0.3_siebdruck.png)
+
+Weitere Unterlagen: [Schaltplan (PDF)](psu/TR-808PSU_Rev0.3_schaltplan.pdf) · [Stückliste](STUECKLISTE.md) ([CSV](psu/TR-808PSU_Rev0.3_bom.csv)) · [1:1-Ausdruck (A4)](psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf) · [Gerber (Zip)](psu/TR-808PSU_Rev0.3_gerber.zip) · [Bestückungsplan (PDF)](psu/TR-808PSU_Rev0.3_assembly.pdf) · [Original-Kupfer gegen Bahnen](psu/TR-808PSU_Rev0.3_ueberlagerung.png) · [Prüfung](PRUEFUNG.md) · [Releases](https://github.com/dslmande/TR-808PSU/releases)
+
 | Datei | Inhalt |
 |---|---|
 | [ORIGINAL.md](ORIGINAL.md) | Quelle, Blätter, Varianten, Schaltungsbeschreibung, was offen ist |
@@ -20,7 +32,7 @@ Stand: **Rev0.3**, nicht gefertigt, nicht am Gerät erprobt.
 | `psu/TR-808PSU_Rev0.3.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad-Projekt |
 | `psu/TR-808PSU_Rev0.3_schaltplan.pdf` | Plot des Schaltplans |
 | `psu/gerber/`, `psu/TR-808PSU_Rev0.3_gerber.zip` | Gerber, Bohrdaten, Bestückungsliste |
-| `psu/TR-808PSU_Rev0.3_bom.csv` | Stückliste |
+| `psu/TR-808PSU_Rev0.3_bom.csv`, [STUECKLISTE.md](STUECKLISTE.md) | Stückliste (CSV und lesbar mit Funktion und Originalteilen) |
 | `psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf` | 1:1-Ausdruck auf A4 quer: Bestückungsseite, Lötseite, Bohrschablone (100 % drucken, Messstrecke prüfen) |
 | `psu/TR-808PSU_Rev0.3_3d_oben.png`, `_3d_schraeg.png` | 3D-Ansichten (KiCad-Raytracing; Regler, Sicherungshalter und Anschlusspins ohne 3D-Modell) |
 | `psu/TR-808PSU_Rev0.3_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | Plots der Platine |
