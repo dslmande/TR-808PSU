@@ -239,8 +239,8 @@
 		(at 23.94 76.02)
 		(descr "Federclips fuer Sicherung 5x20 mm, Abstand 22,5 mm")
 		(property "Reference" "F1"
-			(at 5.5 11.25 0)
-			(layer "F.Fab")
+			(at 0.000 11.250 0)
+			(layer "F.SilkS")
 			(uuid "83b91f9d-7f68-4da8-8c87-af6ed869da89")
 			(effects
 				(font
@@ -308,6 +308,16 @@
 			(layer "F.Fab")
 			(uuid "9b365879-694a-4e10-87ce-edcceec0b837")
 		)
+		(fp_rect
+			(start -3.5 -3.8)
+			(end 3.5 26.3)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
 		(pad "1" thru_hole oval
 			(at 0 0)
 			(size 4 5)
@@ -334,8 +344,8 @@
 		(at 22.2 110.98)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P9"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "84a8e618-409e-4a9e-9f18-a9c8150d30a3")
 			(effects
 				(font
@@ -516,8 +526,8 @@
 		(at 70.3 77.82)
 		(descr "Federclips fuer Sicherung 5x20 mm, Abstand 22,5 mm")
 		(property "Reference" "F3"
-			(at 5.5 11.25 0)
-			(layer "F.Fab")
+			(at 0.000 11.250 0)
+			(layer "F.SilkS")
 			(uuid "dd042bab-8ca6-4828-95ec-fde6dcaa66b0")
 			(effects
 				(font
@@ -585,6 +595,16 @@
 			(layer "F.Fab")
 			(uuid "5c0e7e68-901a-4d78-9671-62d702cc6447")
 		)
+		(fp_rect
+			(start -3.5 -3.8)
+			(end 3.5 26.3)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
 		(pad "1" thru_hole oval
 			(at 0 0)
 			(size 4 5)
@@ -612,8 +632,8 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 3.81 -2.37 0)
-			(layer "F.Fab")
+			(at -2.200 0.000 0)
+			(layer "F.SilkS")
 			(uuid "8f8a28f3-329b-4fe7-8e77-9f994d7850fc")
 			(effects
 				(font
@@ -820,8 +840,8 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at 3.81 -2.37 0)
-			(layer "F.Fab")
+			(at 3.810 2.650 0)
+			(layer "F.SilkS")
 			(uuid "2230f3c4-812b-4174-a1f1-777026e0fa7e")
 			(effects
 				(font
@@ -1028,8 +1048,8 @@
 		(descr "4-lead round diode bridge package, diameter 9.8mm, pin pitch 5.08mm, see http://www.vishay.com/docs/88769/woo5g.pdf")
 		(tags "diode bridge 9.8mm WOG pitch 5.08mm")
 		(property "Reference" "D2"
-			(at 2.54 -3.302 0)
-			(layer "F.Fab")
+			(at 3.025 -3.760 0)
+			(layer "F.SilkS")
 			(uuid "bfcebf18-a6a5-4eeb-8ed8-debeb6769827")
 			(effects
 				(font
@@ -1226,8 +1246,8 @@
 		(descr "C, Rect series, Radial, pin pitch=7.50mm, length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 7.50mm length 10.3mm width 5mm Capacitor")
 		(property "Reference" "C9"
-			(at 3.75 -3.75 0)
-			(layer "F.Fab")
+			(at -2.810 0.000 0)
+			(layer "F.SilkS")
 			(uuid "2f11f33d-da90-4345-9e65-188d68bd3e97")
 			(effects
 				(font
@@ -1394,8 +1414,8 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 3.81 -2.37 0)
-			(layer "F.Fab")
+			(at -2.200 0.000 0)
+			(layer "F.SilkS")
 			(uuid "dec01548-79e2-4d0f-9966-121e836491b6")
 			(effects
 				(font
@@ -1602,8 +1622,8 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 3.81 -2.37 0)
-			(layer "F.Fab")
+			(at 10.290 0.000 0)
+			(layer "F.SilkS")
 			(uuid "ee2e2bb6-8688-42bf-b88c-27ee43ce21fa")
 			(effects
 				(font
@@ -1810,8 +1830,8 @@
 		(descr "C, Rect series, Radial, pin pitch=7.50mm, length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 7.50mm length 10.3mm width 5mm Capacitor")
 		(property "Reference" "C5"
-			(at 3.75 -3.75 0)
-			(layer "F.Fab")
+			(at 3.745 -3.900 0)
+			(layer "F.SilkS")
 			(uuid "14e9fb48-2be0-48d2-b99a-e1f39b3b1ce5")
 			(effects
 				(font
@@ -1977,8 +1997,8 @@
 		(at 131.92 72.79)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P17"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "d37631b1-2101-4d16-98fb-f0945ae80c02")
 			(effects
 				(font
@@ -2053,8 +2073,8 @@
 		(at 7.78 34.98)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P2"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "e774a99d-f99d-4b7d-82ed-5dbf69b9df3e")
 			(effects
 				(font
@@ -2130,8 +2150,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C16"
-			(at 1.25 -3.75 0)
-			(layer "F.Fab")
+			(at 5.150 0.000 0)
+			(layer "F.SilkS")
 			(uuid "c801e2a1-2fb7-4cce-badc-f4de7a1032b3")
 			(effects
 				(font
@@ -3490,8 +3510,8 @@
 		(descr "C, Rect series, Radial, pin pitch=7.50mm, length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 7.50mm length 10.3mm width 5mm Capacitor")
 		(property "Reference" "C6"
-			(at 3.75 -3.75 0)
-			(layer "F.Fab")
+			(at -4.580 -5.200 0)
+			(layer "F.SilkS")
 			(uuid "488fcd26-76e7-482e-8a4d-369c3e2769bb")
 			(effects
 				(font
@@ -3658,8 +3678,8 @@
 		(descr "C, Rect series, Radial, pin pitch=7.50mm, length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 7.50mm length 10.3mm width 5mm Capacitor")
 		(property "Reference" "C4"
-			(at 3.75 -3.75 0)
-			(layer "F.Fab")
+			(at 3.745 -3.900 0)
+			(layer "F.SilkS")
 			(uuid "956c97d3-fc66-4ec8-887c-e19acf0ca480")
 			(effects
 				(font
@@ -3825,8 +3845,8 @@
 		(at 131.92 86.22)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P16"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "ffd415fe-af1f-42c2-a5f1-158751cfd53a")
 			(effects
 				(font
@@ -4008,8 +4028,8 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "IC2"
-			(at 3.81 -2.33 0)
-			(layer "F.Fab")
+			(at 3.805 17.920 0)
+			(layer "F.SilkS")
 			(uuid "654405cd-6486-4fcf-9134-fbaf3bfc6731")
 			(effects
 				(font
@@ -4351,8 +4371,8 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q2"
-			(at 2.54 -4.1 0)
-			(layer "F.Fab")
+			(at 2.540 2.650 0)
+			(layer "F.SilkS")
 			(uuid "0d4c6de4-3f13-4900-b50e-803600099745")
 			(effects
 				(font
@@ -4800,8 +4820,8 @@
 		(descr "4-lead round diode bridge package, diameter 9.8mm, pin pitch 5.08mm, see http://www.vishay.com/docs/88769/woo5g.pdf")
 		(tags "diode bridge 9.8mm WOG pitch 5.08mm")
 		(property "Reference" "D1"
-			(at 2.54 -3.302 0)
-			(layer "F.Fab")
+			(at 3.025 8.850 0)
+			(layer "F.SilkS")
 			(uuid "e5add616-69d8-42c4-8725-1a63a021344e")
 			(effects
 				(font
@@ -4997,8 +5017,8 @@
 		(at 131.92 95.53)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P15"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "24fb45e8-d443-495b-8481-710ecf10ab76")
 			(effects
 				(font
@@ -5074,8 +5094,8 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"
-			(at 2.54 -4.1 0)
-			(layer "F.Fab")
+			(at 2.540 2.650 0)
+			(layer "F.SilkS")
 			(uuid "84157f6e-ed75-4e29-a914-9cbcd0b64585")
 			(effects
 				(font
@@ -5311,8 +5331,8 @@
 		(descr "C, Rect series, Radial, pin pitch=22.50mm, length*width=26.5*8.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 22.50mm length 26.5mm width 8.5mm Capacitor")
 		(property "Reference" "C1"
-			(at 11.25 -5.5 0)
-			(layer "F.Fab")
+			(at -3.400 0.000 0)
+			(layer "F.SilkS")
 			(uuid "8e1feeca-54bb-4c16-b97c-a0c6c3ce4f01")
 			(effects
 				(font
@@ -5479,8 +5499,8 @@
 		(descr "C, Rect series, Radial, pin pitch=7.50mm, length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 7.50mm length 10.3mm width 5mm Capacitor")
 		(property "Reference" "C2"
-			(at 3.75 -3.75 0)
-			(layer "F.Fab")
+			(at 3.745 3.900 0)
+			(layer "F.SilkS")
 			(uuid "ac6ff011-3574-443b-a72c-97435b770f91")
 			(effects
 				(font
@@ -5647,8 +5667,8 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 3.81 -2.37 0)
-			(layer "F.Fab")
+			(at -2.200 0.000 0)
+			(layer "F.SilkS")
 			(uuid "a7a6976d-981c-470f-be1a-a065ad496dbc")
 			(effects
 				(font
@@ -5854,8 +5874,8 @@
 		(at 131.92 41.34)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P20"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "65d3573e-21e4-465b-826f-69c6846e731c")
 			(effects
 				(font
@@ -5931,8 +5951,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Electrolytic Capacitor")
 		(property "Reference" "C13"
-			(at 3.75 -9.25 0)
-			(layer "F.Fab")
+			(at 13.150 0.000 0)
+			(layer "F.SilkS")
 			(uuid "0a345b9b-6d1c-40bc-8dd4-8b496cd674ed")
 			(effects
 				(font
@@ -8861,8 +8881,8 @@
 		(descr "C, Rect series, Radial, pin pitch=7.50mm, length*width=10.3*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 7.50mm length 10.3mm width 5mm Capacitor")
 		(property "Reference" "C10"
-			(at 3.75 -3.75 0)
-			(layer "F.Fab")
+			(at -2.810 0.000 0)
+			(layer "F.SilkS")
 			(uuid "3db68bae-57ba-47b1-8d9b-8e8f2616f823")
 			(effects
 				(font
@@ -9029,8 +9049,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Electrolytic Capacitor")
 		(property "Reference" "C12"
-			(at 3.75 -9.25 0)
-			(layer "F.Fab")
+			(at 13.150 0.000 0)
+			(layer "F.SilkS")
 			(uuid "ffdbd6b9-9a77-4013-8c4f-dfca8e7cc19c")
 			(effects
 				(font
@@ -11958,8 +11978,8 @@
 		(at 7.78 84.32)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P7"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "de70a4c0-a9da-4203-ac6c-aa7c57b39d2e")
 			(effects
 				(font
@@ -12034,8 +12054,8 @@
 		(at 46.51 110.98)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P11"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "ba09cd34-ef5d-4195-85f2-249f40d1c224")
 			(effects
 				(font
@@ -12216,8 +12236,8 @@
 		(at 57.07 110.98)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P12"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "718b1f45-d6e7-40d1-a167-e99234378170")
 			(effects
 				(font
@@ -12292,8 +12312,8 @@
 		(at 131.92 22.3)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P22"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "2bcd7aca-3dcd-4f5f-8e88-031dc7904f77")
 			(effects
 				(font
@@ -12368,8 +12388,8 @@
 		(at 7.78 96.56)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P8"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "9316cc7b-d80f-4e47-bb0a-53f9f464728f")
 			(effects
 				(font
@@ -12444,8 +12464,8 @@
 		(at 7.78 53.75)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P4"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "fd77df9c-a280-4406-9f69-8e2df79264bc")
 			(effects
 				(font
@@ -12626,8 +12646,8 @@
 		(at 78.34 110.98)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P14"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "74b4f106-74ce-4dcd-b139-7fcf17107613")
 			(effects
 				(font
@@ -12809,8 +12829,8 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
-			(at 5.08 -2.12 0)
-			(layer "F.Fab")
+			(at 12.360 0.000 0)
+			(layer "F.SilkS")
 			(uuid "d2ec6489-667a-4fa9-b0a8-d1a035462a10")
 			(effects
 				(font
@@ -13070,8 +13090,8 @@
 		(at 7.78 77.68)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P6"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "bebd0fd9-26c7-4c2c-82bb-f35a8f9b9cea")
 			(effects
 				(font
@@ -13253,8 +13273,8 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C7"
-			(at 1.25 -2.25 0)
-			(layer "F.Fab")
+			(at 1.250 2.400 0)
+			(layer "F.SilkS")
 			(uuid "7b119915-d454-4edb-82a8-e5b8e72285aa")
 			(effects
 				(font
@@ -13440,8 +13460,8 @@
 		(at 7.78 65.61)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P5"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "b56a8643-44f8-4c0a-be90-42b271f76c92")
 			(effects
 				(font
@@ -13517,8 +13537,8 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
-			(at 5.08 -2.12 0)
-			(layer "F.Fab")
+			(at 12.360 0.000 0)
+			(layer "F.SilkS")
 			(uuid "dc890398-0136-4a1e-b64e-89896513f10d")
 			(effects
 				(font
@@ -13779,8 +13799,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C15"
-			(at 1.25 -3.75 0)
-			(layer "F.Fab")
+			(at 5.150 0.000 0)
+			(layer "F.SilkS")
 			(uuid "0cf7a4b3-a4d6-4069-b46b-00ce6666404b")
 			(effects
 				(font
@@ -15139,8 +15159,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 2.5 -7.5 0)
-			(layer "F.Fab")
+			(at 2.500 7.650 0)
+			(layer "F.SilkS")
 			(uuid "3dc2d4a0-24b0-407f-bb0a-2c33e32d8a2e")
 			(effects
 				(font
@@ -17638,8 +17658,8 @@
 		(at 7.78 46.57)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P3"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "576c283d-4f0c-49e2-af1a-dafd8f4542e8")
 			(effects
 				(font
@@ -17715,8 +17735,8 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C8"
-			(at 1.25 -2.25 0)
-			(layer "F.Fab")
+			(at 1.250 2.400 0)
+			(layer "F.SilkS")
 			(uuid "2375bdd1-df3d-4ee1-8a27-6210601401e6")
 			(effects
 				(font
@@ -17903,8 +17923,8 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 3.81 -2.37 0)
-			(layer "F.Fab")
+			(at 3.810 2.650 0)
+			(layer "F.SilkS")
 			(uuid "11ef3976-3dc4-4d3b-a125-1dbbcdb4ee5c")
 			(effects
 				(font
@@ -18110,8 +18130,8 @@
 		(at 131.92 63.27)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P18"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "ea7e5a80-a5ac-482f-b8c4-d622bc532c2a")
 			(effects
 				(font
@@ -18187,8 +18207,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C14"
-			(at 1.25 -3.75 0)
-			(layer "F.Fab")
+			(at 5.150 0.000 0)
+			(layer "F.SilkS")
 			(uuid "04983698-3103-467e-9788-ada5d332e516")
 			(effects
 				(font
@@ -19546,8 +19566,8 @@
 		(at 35.96 110.98)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P10"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "b98b8065-d956-4e0f-9a40-5c1e3b76014a")
 			(effects
 				(font
@@ -19623,8 +19643,8 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "IC1"
-			(at 2.54 -4.1 0)
-			(layer "F.Fab")
+			(at 2.540 2.650 0)
+			(layer "F.SilkS")
 			(uuid "865e5b83-d6f6-4e36-ad27-7770e6a93812")
 			(effects
 				(font
@@ -19859,8 +19879,8 @@
 		(at 7.78 27.96)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P1"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "d009a90d-f4d9-4fec-98a5-e19a0c5fe2f7")
 			(effects
 				(font
@@ -19935,8 +19955,8 @@
 		(at 131.92 31.77)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P21"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "4a2827e1-e721-4b9e-8a11-dd35e86ccfb4")
 			(effects
 				(font
@@ -20117,8 +20137,8 @@
 		(at 131.92 53.37)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P19"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "a058ea23-1d64-46ff-8a5e-d2422f5924be")
 			(effects
 				(font
@@ -20193,8 +20213,8 @@
 		(at 87.51 78.02)
 		(descr "Federclips fuer Sicherung 5x20 mm, Abstand 22,5 mm")
 		(property "Reference" "F4"
-			(at 5.5 11.25 0)
-			(layer "F.Fab")
+			(at 0.000 11.250 0)
+			(layer "F.SilkS")
 			(uuid "8c5a67d4-0089-4aed-b11c-a0c47fc8fde1")
 			(effects
 				(font
@@ -20262,6 +20282,16 @@
 			(layer "F.Fab")
 			(uuid "3a07fc17-0050-4404-b9d4-552e489338b3")
 		)
+		(fp_rect
+			(start -3.5 -3.8)
+			(end 3.5 26.3)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
 		(pad "1" thru_hole oval
 			(at 0 0)
 			(size 4 5)
@@ -20289,8 +20319,8 @@
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C11"
-			(at 2.5 -6.25 0)
-			(layer "F.Fab")
+			(at 2.500 -6.400 0)
+			(layer "F.SilkS")
 			(uuid "2f621f34-8b28-4903-8ad4-541fe945c0fa")
 			(effects
 				(font
@@ -22368,8 +22398,8 @@
 		(at 52.77 78.42)
 		(descr "Federclips fuer Sicherung 5x20 mm, Abstand 22,5 mm")
 		(property "Reference" "F2"
-			(at 5.5 11.25 0)
-			(layer "F.Fab")
+			(at 0.000 11.250 0)
+			(layer "F.SilkS")
 			(uuid "6cf00d95-1773-4fd4-980f-27e049272e1e")
 			(effects
 				(font
@@ -22437,6 +22467,16 @@
 			(layer "F.Fab")
 			(uuid "e7791b60-cb7c-463d-be23-3d05432dbe6a")
 		)
+		(fp_rect
+			(start -3.5 -3.8)
+			(end 3.5 26.3)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+		)
 		(pad "1" thru_hole oval
 			(at 0 0)
 			(size 4 5)
@@ -22464,8 +22504,8 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 3.81 -2.37 0)
-			(layer "F.Fab")
+			(at -2.200 0.000 0)
+			(layer "F.SilkS")
 			(uuid "dd6e3d95-f443-4ee9-8f2f-be1502196dfc")
 			(effects
 				(font
@@ -22671,8 +22711,8 @@
 		(at 67.95 110.98)
 		(descr "Loetstift Platinenanschluss")
 		(property "Reference" "P13"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
+			(at 0.000 3.250 0)
+			(layer "F.SilkS")
 			(uuid "1067f676-0008-4c9f-9ecb-4712349d21fa")
 			(effects
 				(font
