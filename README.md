@@ -10,6 +10,7 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
 | Datei | Inhalt |
 |---|---|
 | [ORIGINAL.md](ORIGINAL.md) | Quelle, Blätter, Varianten, Schaltungsbeschreibung, was offen ist |
+| [PRUEFUNG.md](PRUEFUNG.md) | Normrahmen (DIN EN IEC 62368-1, IEC 60664-1), Verifizierung, Validierung, Befunde, Risiken |
 | `psu/TR-808PSU_Rev0.1.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad-Projekt |
 | `psu/TR-808PSU_Rev0.1_schaltplan.pdf` | Plot des Schaltplans |
 | `psu/gerber/`, `psu/TR-808PSU_Rev0.1_gerber.zip` | Gerber, Bohrdaten, Bestückungsliste |
