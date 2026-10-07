@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/patrickjoricke/Claude/code/TR-808PSU/psu/TR-808PSU_Rev0.1.kicad_sch")
-		(date "2026-10-07T08:49:20")
+		(date "2026-10-07T09:20:55")
 		(tool "Eeschema 10.0.2")
 		(sheet
 			(number "1")

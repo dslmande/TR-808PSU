@@ -46,7 +46,7 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
 ## Prüfstand (Rev0.1, 06.10.2026)
 
 * **ERC:** 0 Verstöße (`psu/TR-808PSU_Rev0.1-erc.rpt`).
-* **DRC:** 0 Fehler, 3 Courtyard-Überlappungen (Warnung: die Bauteile sitzen so
+* **DRC (Abstandsregel 0,25 mm):** 0 Fehler, 3 Courtyard-Überlappungen (Warnung: die Bauteile sitzen so
   eng wie im Original); 0 unverbundene Verbindungen; Abgleich Schaltplan–Platine 0.
 * **Netz gegen Kleinspannung:** kleinster Abstand 6,5 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.1.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
 * **Netzliste gegen das Schaltbild:** vom Schaltbild von Hand gelesen und am
