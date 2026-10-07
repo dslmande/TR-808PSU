@@ -5,27 +5,28 @@ KiCad-Projekt: Schaltplan nach dem Service Manual von 1981, Platine mit
 Umriss, Bohrungen, Anschlüssen und Bauteillagen wie im Bestückungsplan des
 Originals. Variante **220/240 V** (PS3116-054).
 
-Stand: **Rev0.2**, nicht gefertigt, nicht am Gerät erprobt.
+Stand: **Rev0.3**, nicht gefertigt, nicht am Gerät erprobt.
 
 | Version | Inhalt |
 |---|---|
 | [Rev0.1](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.1) | historische 1:1-Kopie des Originals von 1984–86; geschaltete Netzleiter SW_A/SW_B 3,75 mm auseinander |
-| **Rev0.2** (aktuell) | wie Rev0.1, aber SW_B auf der Netzseite weiter weg: SW_A/SW_B mindestens 5,67 mm; sonst gleiche Bauteile, Schaltung, Maße |
+| [Rev0.2](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.2) | wie Rev0.1, aber SW_B auf der Netzseite weiter weg: SW_A/SW_B mindestens 5,67 mm |
+| **Rev0.3** (aktuell) | wie Rev0.2, aber die 230-V-Primärseite (Klemmen 1–9: Netz, Schalter, Trafo-Eingang) mit **Schraubklemmen RM5,0** (Phoenix MKDS 1,5) statt Lötösen; Klemmen 10–22 (Kleinspannung) bleiben Lötösen |
 
 | Datei | Inhalt |
 |---|---|
 | [ORIGINAL.md](ORIGINAL.md) | Quelle, Blätter, Varianten, Schaltungsbeschreibung, was offen ist |
 | [PRUEFUNG.md](PRUEFUNG.md) | Normrahmen (DIN EN IEC 62368-1, IEC 60664-1), Verifizierung, Validierung, Befunde, Risiken |
-| `psu/TR-808PSU_Rev0.2.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad-Projekt |
-| `psu/TR-808PSU_Rev0.2_schaltplan.pdf` | Plot des Schaltplans |
-| `psu/gerber/`, `psu/TR-808PSU_Rev0.2_gerber.zip` | Gerber, Bohrdaten, Bestückungsliste |
-| `psu/TR-808PSU_Rev0.2_bom.csv` | Stückliste |
-| `psu/TR-808PSU_Rev0.2_ausdruck_1zu1.pdf` | 1:1-Ausdruck auf A4 quer: Bestückungsseite, Lötseite, Bohrschablone (100 % drucken, Messstrecke prüfen) |
-| `psu/TR-808PSU_Rev0.2_3d_oben.png`, `_3d_schraeg.png` | 3D-Ansichten (KiCad-Raytracing; Regler, Sicherungshalter und Anschlusspins ohne 3D-Modell) |
-| `psu/TR-808PSU_Rev0.2_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | Plots der Platine |
+| `psu/TR-808PSU_Rev0.3.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad-Projekt |
+| `psu/TR-808PSU_Rev0.3_schaltplan.pdf` | Plot des Schaltplans |
+| `psu/gerber/`, `psu/TR-808PSU_Rev0.3_gerber.zip` | Gerber, Bohrdaten, Bestückungsliste |
+| `psu/TR-808PSU_Rev0.3_bom.csv` | Stückliste |
+| `psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf` | 1:1-Ausdruck auf A4 quer: Bestückungsseite, Lötseite, Bohrschablone (100 % drucken, Messstrecke prüfen) |
+| `psu/TR-808PSU_Rev0.3_3d_oben.png`, `_3d_schraeg.png` | 3D-Ansichten (KiCad-Raytracing; Regler, Sicherungshalter und Anschlusspins ohne 3D-Modell) |
+| `psu/TR-808PSU_Rev0.3_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | Plots der Platine |
 | `psu/placement.json`, `psu/placement_scan.json` | Bauteilpositionen aus dem Bestückungsplan bzw. am Scan ausgerichtet (mm) |
 | `psu/kupfer.npz`, `psu/leitkarte.npz` | Kupfermaske und Netzgebiete des Originals (aus dem Scan) |
-| `psu/TR-808PSU_Rev0.2_ueberlagerung.png` | Original-Kupfer gegen die Bahnen dieser Platine |
+| `psu/TR-808PSU_Rev0.3_ueberlagerung.png` | Original-Kupfer gegen die Bahnen dieser Platine |
 | `tools/` | Generator und Werkzeugkette (aus dem Oakley-Projekt) |
 
 ## Was „1:1“ hier heißt
@@ -34,7 +35,7 @@ Stand: **Rev0.2**, nicht gefertigt, nicht am Gerät erprobt.
   Werte und Anschlussnummern 1–22 wie im Original. Der Plan ist wie das Original
   gezeichnet (Netz und Schalter links, Trafo, +5-V-Zweig, ±15-V-Zweig).
 * **Platine:** Umriss, vier Befestigungsbohrungen, sechs Kühlkörperbohrungen (je Regler ein Paar, 21,3 mm Abstand, mittig) und drei Schraubenlöcher M3 der Regler,
-  Anschlusspins, Sicherungsclips und alle Bauteile an den Stellen des Originals,
+  Schraubklemmen RM5 (Klemmen 1–9), Anschlusspins (10–22), Sicherungsclips und alle Bauteile an den Stellen des Originals,
   fein am abgetasteten Kupfer des Scans ausgerichtet (`tools/scan/`).
   Das Original ist einseitig mit einer Drahtbrücke; dieser Nachbau ist
   zweilagig.
@@ -43,7 +44,7 @@ Stand: **Rev0.2**, nicht gefertigt, nicht am Gerät erprobt.
   dem Router als Kostenkarte: Kupfer des Originals ist billig, alles andere teuer, die
   Vorderseite fast gesperrt. Das ergibt eine DRC-saubere Platine, die dem Original
   folgt, wo der Scan es hergibt. **37 % der Bahnlänge liegen im Original-Kupfer**, der
-  Rest ist neu verlegt (breite Bahnen und das Glätten rücken die Wege vom Original ab); das Bild `psu/TR-808PSU_Rev0.2_ueberlagerung.png` zeigt das
+  Rest ist neu verlegt (breite Bahnen und das Glätten rücken die Wege vom Original ab); das Bild `psu/TR-808PSU_Rev0.3_ueberlagerung.png` zeigt das
   Original-Kupfer (grau) und die Bahnen (rot Lötseite, blau Vorderseite). Eine reine
   Abtastung ohne Router scheitert an der Rasterqualität des Scans (Kurzschlüsse
   zwischen Nachbarbahnen, Padlagen nur auf ±0,3 mm).
@@ -53,10 +54,10 @@ Stand: **Rev0.2**, nicht gefertigt, nicht am Gerät erprobt.
 
 ## Prüfstand (Rev0.2, 06.10.2026)
 
-* **ERC:** 0 Verstöße (`psu/TR-808PSU_Rev0.2-erc.rpt`).
+* **ERC:** 0 Verstöße (`psu/TR-808PSU_Rev0.3-erc.rpt`).
 * **DRC (Abstandsregel 0,25 mm):** 0 Fehler, 3 Courtyard-Überlappungen (Warnung: die Bauteile sitzen so
   eng wie im Original); 0 unverbundene Verbindungen; Abgleich Schaltplan–Platine 0.
-* **Netz gegen Kleinspannung:** kleinster Abstand 6,5 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.2.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
+* **Netz gegen Kleinspannung:** kleinster Abstand 6,5 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.3.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
 * **Netzliste gegen das Schaltbild:** vom Schaltbild von Hand gelesen und am
   Plot gegengesehen; kein unabhängiger Abgleich, siehe „Offen“ in ORIGINAL.md.
 * Bahnbreite 1,0 mm überall (`tools/pcb/verbreitern.py` setzt auch die vom Router schmal
@@ -77,8 +78,8 @@ Plan und Layout werden erzeugt, nicht von Hand gezeichnet:
 ```bash
 python3 tools/pcb/fp_tr808.py psu/TR808PSU.pretty
 python3 tools/psu/build_psu.py psu
-python3 tools/textplace.py psu/TR-808PSU_Rev0.2.kicad_sch
-python3 tools/textfix.py psu/TR-808PSU_Rev0.2.kicad_sch
+python3 tools/textplace.py psu/TR-808PSU_Rev0.3.kicad_sch
+python3 tools/textfix.py psu/TR-808PSU_Rev0.3.kicad_sch
 python3 tools/pcb/original_placement.py psu
 python3 tools/scan/kupfer.py vorlage/Roland_TR-808_Service_Manual.pdf psu/kupfer.npz
 python3 tools/scan/fit2.py psu psu/kupfer.npz          # Bauteile am Scan ausrichten

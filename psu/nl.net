@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "/Users/patrickjoricke/Claude/code/TR-808PSU/psu/TR-808PSU_Rev0.2.kicad_sch")
-		(date "2026-10-07T15:23:13")
+		(source "/Users/patrickjoricke/Claude/code/TR-808PSU/psu/TR-808PSU_Rev0.3.kicad_sch")
+		(date "2026-10-07T15:30:15")
 		(tool "Eeschema 10.0.2")
 		(sheet
 			(number "1")
@@ -11,9 +11,9 @@
 			(title_block
 				(title "Roland TR-808 - Netzteil PS3116 (Nachbau 1:1)")
 				(company "Nachzeichnung nach Roland TR-808 Service Notes, 15.06.1981")
-				(rev "0.2")
+				(rev "0.3")
 				(date "2026-10-07")
-				(source "TR-808PSU_Rev0.2.kicad_sch")
+				(source "TR-808PSU_Rev0.3.kicad_sch")
 				(comment
 					(number "1")
 					(value "")
@@ -79,7 +79,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -93,7 +93,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "bdadf9bd-e557-4c36-9998-f3e549979e72")
+			(tstamps "275a7a7d-3e5e-44c1-86bb-3f3b17c5159c")
 			(units
 				(unit
 					(name "A")
@@ -133,7 +133,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -147,7 +147,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2b0509f1-4d38-44f0-a03d-0be20a75470e")
+			(tstamps "c7f2aa14-77f1-41b8-9d9a-189dc3255b4d")
 			(units
 				(unit
 					(name "A")
@@ -187,7 +187,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -201,7 +201,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6cc16181-b22c-4233-a449-20cd7b3041d0")
+			(tstamps "a0d25eac-65f2-48ec-a888-f45e2b2f86f8")
 			(units
 				(unit
 					(name "A")
@@ -241,7 +241,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -255,7 +255,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d7fe1fac-6a30-4302-8059-8b143c308758")
+			(tstamps "678583a7-7c0a-46d4-823c-0a3f20c65440")
 			(units
 				(unit
 					(name "A")
@@ -295,7 +295,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -309,7 +309,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6a04f809-63a9-497d-a646-b1e96c8190ca")
+			(tstamps "1428234b-bf37-4360-89cf-138ea6a6ff54")
 			(units
 				(unit
 					(name "A")
@@ -349,7 +349,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -363,7 +363,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "782110c2-f8c0-443c-86ce-9dba27deb6cd")
+			(tstamps "8480efd8-ab94-4311-9621-5136081057e8")
 			(units
 				(unit
 					(name "A")
@@ -403,7 +403,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -417,7 +417,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ca834965-aff4-4064-a676-6148673ece17")
+			(tstamps "a55ad52c-483e-465f-ba74-795a27c9f9ed")
 			(units
 				(unit
 					(name "A")
@@ -457,7 +457,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -471,7 +471,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "42496e41-681e-4dac-9bcd-7961f0fa3073")
+			(tstamps "3190c646-208f-4f96-a0ad-a73d44e3f9e3")
 			(units
 				(unit
 					(name "A")
@@ -511,7 +511,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -525,7 +525,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0a44d2c7-1bb0-432e-8dd5-8e3c87dd827e")
+			(tstamps "39f6f6c0-9a0d-478d-9ae4-8ce960c98bd0")
 			(units
 				(unit
 					(name "A")
@@ -565,7 +565,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -579,7 +579,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "74c7bec1-0f00-4c30-a15c-2aaa83932509")
+			(tstamps "76b2d763-ea80-4e6d-b6d4-ec52fae33aa3")
 			(units
 				(unit
 					(name "A")
@@ -619,7 +619,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -633,7 +633,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "1ef3cd13-0ea8-47bd-97ce-88bf4bfdaf85")
+			(tstamps "da7aed15-aee6-406f-9a9b-5401a753f9dc")
 			(units
 				(unit
 					(name "A")
@@ -673,7 +673,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -687,7 +687,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5ad68de3-cad6-47d1-b68f-0cf3207f4b03")
+			(tstamps "a31e3db0-5278-409d-bedd-6620e69bdb10")
 			(units
 				(unit
 					(name "A")
@@ -727,7 +727,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -741,7 +741,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6e61b5c3-0bd2-4d23-aa25-2d9ce86de6ce")
+			(tstamps "3b25cc94-f271-4268-9cd4-f4ad310e7d3a")
 			(units
 				(unit
 					(name "A")
@@ -781,7 +781,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -795,7 +795,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "34a9f197-5215-4fe4-b2ba-0e13df2e4a30")
+			(tstamps "7e13190c-ce70-42d2-8e26-a6c3b652a3fb")
 			(units
 				(unit
 					(name "A")
@@ -835,7 +835,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -849,7 +849,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "575cb39d-c2d7-4585-9734-a3c2cbfcd457")
+			(tstamps "8cb14c77-355a-4c5c-b3de-3c613ab3bafa")
 			(units
 				(unit
 					(name "A")
@@ -889,7 +889,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -903,7 +903,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ae974dee-14d4-40c7-b9cc-00e2a42ce281")
+			(tstamps "745689cb-8128-4e57-ac4b-f9a427d3927a")
 			(units
 				(unit
 					(name "A")
@@ -943,7 +943,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -957,7 +957,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "21dd980c-0ace-4d62-a918-ebe3ed0ce3a2")
+			(tstamps "02bfa8e8-e537-414d-a4a1-8c4f53e1cc50")
 			(units
 				(unit
 					(name "A")
@@ -1003,7 +1003,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1017,7 +1017,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e815df69-0d01-477b-81ba-dfcaf3cd6124")
+			(tstamps "44758347-a7d3-4f27-8c8f-c26fc07328de")
 			(units
 				(unit
 					(name "A")
@@ -1063,7 +1063,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1077,7 +1077,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8723ae0e-5edb-43e3-bb17-07b70be7536e")
+			(tstamps "746b6208-370f-4334-9e88-e77c2ce64d38")
 			(units
 				(unit
 					(name "A")
@@ -1117,7 +1117,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1131,7 +1131,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8785da0b-eda4-4617-b40c-b9a52b5a4c79")
+			(tstamps "abf76f51-1ec8-43fa-84e1-9ee058529663")
 			(units
 				(unit
 					(name "A")
@@ -1171,7 +1171,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1185,7 +1185,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e3e1569d-6f85-4f14-8518-c55b81d66c23")
+			(tstamps "9a50eba0-e12a-4da9-94a8-112489ac881c")
 			(units
 				(unit
 					(name "A")
@@ -1225,7 +1225,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1239,7 +1239,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e4aa7a61-19a5-4024-9263-02c1bd1eb6a1")
+			(tstamps "8e4c8cd1-2e2e-45ab-b379-1a3edf50f542")
 			(units
 				(unit
 					(name "A")
@@ -1279,7 +1279,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1293,7 +1293,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "02047076-c40d-462b-bad5-3df12563f60f")
+			(tstamps "855b7292-aa51-44bb-9b03-119f903bf418")
 			(units
 				(unit
 					(name "A")
@@ -1333,7 +1333,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -1347,7 +1347,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d1b0ac89-d4fe-4b8d-8f6e-4f44a9eedcd7")
+			(tstamps "cad5a486-912b-46af-9eea-55f603a62d14")
 			(units
 				(unit
 					(name "A")
@@ -1387,7 +1387,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1404,7 +1404,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9f6275a5-f658-4dce-a692-0ac582e450c0")
+			(tstamps "a1877ef0-a905-4828-be27-d066f5637010")
 			(units
 				(unit
 					(name "A")
@@ -1437,7 +1437,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1454,7 +1454,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "7a9c1d48-321f-479b-a1c2-ce1f76d7f9b7")
+			(tstamps "7347c9d7-f404-4c2e-8a89-b57af24a8dd4")
 			(units
 				(unit
 					(name "A")
@@ -1487,7 +1487,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1504,7 +1504,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "944b0a6c-7daf-4684-8d2e-6e7a2af5f9e2")
+			(tstamps "85f19086-efd9-4daf-bf6d-314a5e533710")
 			(units
 				(unit
 					(name "A")
@@ -1537,7 +1537,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1554,7 +1554,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6d1565e3-2089-4a30-8a3b-b4adbbda77d9")
+			(tstamps "1bf6a399-e19e-4981-a3c7-8143634e1342")
 			(units
 				(unit
 					(name "A")
@@ -1587,7 +1587,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1604,7 +1604,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "80eaea9a-d973-4b35-9653-d80a4ae300b5")
+			(tstamps "75c38768-539a-4871-997f-8d7a87345f63")
 			(units
 				(unit
 					(name "A")
@@ -1637,7 +1637,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1654,7 +1654,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "264a3b29-747f-4b1f-a1f2-1b6170b82dc7")
+			(tstamps "25eaf0f2-dd59-409b-8f2e-e5911ee964cb")
 			(units
 				(unit
 					(name "A")
@@ -1687,7 +1687,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1704,7 +1704,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f51fa4f6-b577-4d7c-a968-9534492aba60")
+			(tstamps "1991a0c2-aa78-411b-a4a2-77f56da1634b")
 			(units
 				(unit
 					(name "A")
@@ -1737,7 +1737,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1754,7 +1754,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a453f191-0036-44bc-9694-5e292e1cd39f")
+			(tstamps "f8d6bc38-a6e9-4ce4-b060-8cff12eb2c62")
 			(units
 				(unit
 					(name "A")
@@ -1787,7 +1787,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1804,7 +1804,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "35d29ca4-ec00-4232-8f35-14d7dd1fb158")
+			(tstamps "0a82710a-ebef-4812-84d9-015293f0bef4")
 			(units
 				(unit
 					(name "A")
@@ -1837,7 +1837,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1854,7 +1854,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "cd673d4e-258c-4320-82da-2487b956be42")
+			(tstamps "45bb38fe-1c57-4fd8-a1af-161098e45069")
 			(units
 				(unit
 					(name "A")
@@ -1887,7 +1887,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1904,7 +1904,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "bef6684f-6f76-4f27-ae47-d994750ed7d8")
+			(tstamps "13cc5a75-1de4-44f1-ad0c-19207d409c47")
 			(units
 				(unit
 					(name "A")
@@ -1937,7 +1937,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -1954,7 +1954,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2a6d00fc-fc52-41c4-acb7-48ee04dee645")
+			(tstamps "52b3f320-76e4-47b6-9a1e-abf24be49fc1")
 			(units
 				(unit
 					(name "A")
@@ -1987,7 +1987,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "exclude_from_bom")
@@ -2004,7 +2004,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "dc4ce6f4-f185-4856-805d-d6c51a187d00")
+			(tstamps "5a5d9eee-9e71-4750-b693-caf63abe5a23")
 			(units
 				(unit
 					(name "A")
@@ -2037,7 +2037,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -2051,7 +2051,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "08f74a3d-21d5-4c05-9507-010b98f17064")
+			(tstamps "8f6b683b-6757-4693-84c9-586258ddd7ef")
 			(units
 				(unit
 					(name "A")
@@ -2094,13 +2094,13 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2b2cd179-e7cd-4198-ad03-9dc435977e10")
+			(tstamps "a69f9e40-61e1-46ee-bc9e-be93af03f058")
 			(units
 				(unit
 					(name "A")
@@ -2152,402 +2152,6 @@
 			)
 		)
 		(comp
-			(ref "P1")
-			(value "1")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "7000bca0-e5f3-4fa8-8985-ebbf03b06903")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P2")
-			(value "2")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "62e6a62c-11c3-486d-aff9-c0aad094ff53")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P3")
-			(value "3")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "f48f94e0-e59b-411c-b5ab-20d8356143d2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P4")
-			(value "4")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "8096f44f-26b3-4f8a-87fc-3616394e4e98")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P5")
-			(value "5")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "e32b1ab5-7f62-4150-9d45-9b11dbb4e4b2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P6")
-			(value "6")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "bd975306-3615-49dd-bb95-d458116fafee")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P7")
-			(value "7")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "3dc19dbe-7a01-4ba6-8639-36256442be8b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P8")
-			(value "8")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "35255ae7-b786-4053-8b2d-6109f93832de")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "P9")
-			(value "9")
-			(footprint "TR808PSU:Terminal_Pin")
-			(fields
-				(field
-					(name "Footprint") "TR808PSU:Terminal_Pin")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "TR808PSU")
-				(part "Terminal")
-				(description "Anschlusspunkt der Platine")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
-			)
-			(duplicate_pin_numbers_are_jumpers "1")
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "de8dedc1-39d8-42d3-b618-e96f2f4e9fb7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "P10")
 			(value "10")
 			(footprint "TR808PSU:Terminal_Pin")
@@ -2572,14 +2176,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "34cac8a2-c90a-40f1-8701-890072186cf8")
+			(tstamps "89255acc-8cce-4a55-801e-dd0badf72714")
 			(units
 				(unit
 					(name "A")
@@ -2616,14 +2220,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "036b7c76-10da-48d1-9fb3-50bdcb3ece5d")
+			(tstamps "af42cdaa-b4aa-4e1f-9364-34e7d0556174")
 			(units
 				(unit
 					(name "A")
@@ -2660,14 +2264,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ec9e2d5e-f14d-4c2d-b0a4-15ff86159d26")
+			(tstamps "05296edc-638c-4bb7-9447-b9510dd799c3")
 			(units
 				(unit
 					(name "A")
@@ -2704,14 +2308,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c05de730-acd7-4024-b30c-17af342d5a73")
+			(tstamps "8b4950a3-89d7-4437-8a3d-d897ce84515f")
 			(units
 				(unit
 					(name "A")
@@ -2748,14 +2352,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "50c30a2a-0e5d-491d-9e7c-a100be232bb5")
+			(tstamps "b9694b5b-5807-4840-9ac6-ec6f1b142b4b")
 			(units
 				(unit
 					(name "A")
@@ -2792,14 +2396,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c269d1c7-07de-4244-ad67-41e5a6a1d405")
+			(tstamps "4d53825f-c9c1-4ffd-a5e4-bd0ad4c86237")
 			(units
 				(unit
 					(name "A")
@@ -2836,14 +2440,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "64e0301e-df61-4298-964f-0272872239a5")
+			(tstamps "b9a5d9fa-20fd-4ea1-a504-56b5c1186d9e")
 			(units
 				(unit
 					(name "A")
@@ -2880,14 +2484,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5775a242-5cae-4e87-97ca-fa51804adc6e")
+			(tstamps "0f59af75-f34e-442c-8b07-b6f7dc49eaa2")
 			(units
 				(unit
 					(name "A")
@@ -2924,14 +2528,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "959857fe-8323-4192-a535-07785d88e7d9")
+			(tstamps "0a1c6fbc-b37f-4d48-bf55-731b839386dd")
 			(units
 				(unit
 					(name "A")
@@ -2968,14 +2572,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b08a2721-0e46-472c-a9e4-656622cc79f4")
+			(tstamps "4d9afb7e-af97-481e-832c-1a8a5c7386a4")
 			(units
 				(unit
 					(name "A")
@@ -3012,14 +2616,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b8d7d417-6cb7-4c7a-82e9-dbaa0305274d")
+			(tstamps "54de2b91-046e-423c-9d2f-49ed00ff4edc")
 			(units
 				(unit
 					(name "A")
@@ -3056,14 +2660,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2d476ca7-f896-49d7-b4fb-9b06cb73e122")
+			(tstamps "e99564a0-6aa7-44c9-896b-b5f47f39c6d4")
 			(units
 				(unit
 					(name "A")
@@ -3100,14 +2704,14 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(duplicate_pin_numbers_are_jumpers "1")
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b897caa9-b9a7-4d02-8436-4618581c5c77")
+			(tstamps "80c2ed65-5dc0-4aa5-97ad-877ff4f08722")
 			(units
 				(unit
 					(name "A")
@@ -3144,7 +2748,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3158,7 +2762,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "450b563f-1c8b-479a-995e-97120c8cb1da")
+			(tstamps "95d7caf2-adae-4833-9ff8-49b71af2190b")
 			(units
 				(unit
 					(name "A")
@@ -3201,7 +2805,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3215,7 +2819,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "fb1aa41a-fbff-4c79-b86a-400ba3113e13")
+			(tstamps "8db712a3-22c3-428e-99ee-f1a00fcb199f")
 			(units
 				(unit
 					(name "A")
@@ -3258,7 +2862,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3272,7 +2876,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9cd30000-5636-4392-b1b8-9765bdf7fd46")
+			(tstamps "c8816e13-b3c6-48c8-8682-5a5dd395d4d1")
 			(units
 				(unit
 					(name "A")
@@ -3312,7 +2916,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3326,7 +2930,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "72d415d0-e5ea-4aa0-a1b0-47437ddb3006")
+			(tstamps "5be1ad36-824a-41bf-819a-36d3af6e9b0f")
 			(units
 				(unit
 					(name "A")
@@ -3366,7 +2970,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3380,7 +2984,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b4a9ac1a-8ee8-424c-aa88-86ffc59ff501")
+			(tstamps "7c32addd-68b5-4e66-a29c-ea0f25da19d1")
 			(units
 				(unit
 					(name "A")
@@ -3420,7 +3024,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3434,7 +3038,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "43546ca2-657c-4310-80bc-c22b1ca45ec0")
+			(tstamps "9956953b-9245-44b1-a187-162e0e70eaf8")
 			(units
 				(unit
 					(name "A")
@@ -3474,7 +3078,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3488,7 +3092,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a346dc11-d30b-4a0d-9cdb-94ff8d91815e")
+			(tstamps "d9ee7351-c60e-49e8-a8dd-d240b011fe97")
 			(units
 				(unit
 					(name "A")
@@ -3528,7 +3132,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3542,7 +3146,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f29193e0-b09c-49fa-9c9c-deacba313036")
+			(tstamps "eed7a8c9-b687-4210-8d3e-1c4e72f649af")
 			(units
 				(unit
 					(name "A")
@@ -3582,7 +3186,7 @@
 			)
 			(property
 				(name "Sheetfile")
-				(value "TR-808PSU_Rev0.2.kicad_sch")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -3596,7 +3200,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "bc5d362c-212e-4859-9883-1c1d90151358")
+			(tstamps "7bbb63be-be40-45db-9f4f-23e1576df267")
 			(units
 				(unit
 					(name "A")
@@ -3611,10 +3215,302 @@
 				)
 			)
 		)
+		(comp
+			(ref "X1")
+			(value "2P RM5")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x02")
+				(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5feb4a32-1c1b-4646-9566-d57ac95a29e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "X2")
+			(value "2P RM5")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x02")
+				(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25a5c660-f2d3-4945-9f1e-ac311c80445f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "X3")
+			(value "2P RM5")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x02")
+				(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "98e1da21-6184-4172-a6c2-527746d3660a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "X4")
+			(value "3P RM5")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x03")
+				(description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TR-808PSU_Rev0.3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "54af620e-469a-4042-bebc-81bb0cb7fc67")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
 	)
 	(groups)
 	(variants)
 	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Screw_Terminal_01x02")
+			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "TerminalBlock*:*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Screw_Terminal_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Screw_Terminal_01x03")
+			(description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "TerminalBlock*:*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Screw_Terminal_01x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
 		(libpart
 			(lib "Device")
 			(part "C")
@@ -4196,6 +4092,10 @@
 	)
 	(libraries
 		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
 			(logical "Device")
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
 		)
@@ -4657,13 +4557,15 @@
 			(name "/MAINS_A")
 			(class "Default")
 			(node
-				(ref "P3")
+				(ref "X2")
 				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
-				(ref "P4")
-				(pin "1")
+				(ref "X2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 		)
@@ -4672,13 +4574,15 @@
 			(name "/MAINS_B")
 			(class "Default")
 			(node
-				(ref "P1")
+				(ref "X1")
 				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
-				(ref "P2")
-				(pin "1")
+				(ref "X1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 		)
@@ -4692,13 +4596,25 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P8")
-				(pin "1")
+				(ref "X4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "21")
+			(name "/PRI_9")
+			(class "Default")
+			(node
+				(ref "X4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
 			(name "/RAMV")
 			(class "Default")
 			(node
@@ -4720,7 +4636,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "23")
 			(name "/RAW5")
 			(class "Default")
 			(node
@@ -4747,7 +4663,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "24")
 			(name "/RAW15N")
 			(class "Default")
 			(node
@@ -4774,7 +4690,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "25")
 			(name "/RAW15P")
 			(class "Default")
 			(node
@@ -4801,7 +4717,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "26")
 			(name "/SW_A")
 			(class "Default")
 			(node
@@ -4815,13 +4731,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P5")
-				(pin "1")
+				(ref "X3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "26")
+			(code "27")
 			(name "/SW_B")
 			(class "Default")
 			(node
@@ -4830,18 +4747,20 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "P6")
+				(ref "X3")
 				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
-				(ref "P7")
-				(pin "1")
+				(ref "X4")
+				(pin "3")
+				(pinfunction "Pin_3_3")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "27")
+			(code "28")
 			(name "/VB1")
 			(class "Default")
 			(node
@@ -4868,7 +4787,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "29")
 			(name "/VB2")
 			(class "Default")
 			(node
@@ -4895,7 +4814,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "30")
 			(name "Net-(C11-Pad2)")
 			(class "Default")
 			(node
@@ -4910,7 +4829,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "31")
 			(name "Net-(D1-Pad2)")
 			(class "Default")
 			(node
@@ -4921,16 +4840,6 @@
 			(node
 				(ref "F2")
 				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "31")
-			(name "Net-(P9-Pad1)")
-			(class "Default")
-			(node
-				(ref "P9")
-				(pin "1")
 				(pintype "passive")
 			)
 		)

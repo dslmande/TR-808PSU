@@ -1,4 +1,4 @@
-# Prüfung gegen Normen und Abnahmekriterien (Rev0.2, Stand 07.10.2026)
+# Prüfung gegen Normen und Abnahmekriterien (Rev0.3, Stand 07.10.2026)
 
 **Einordnung:** Das Original stammt von 1984–86 (Service Manual, 3. Auflage Juni 1986; Netzteilplatine PS3116) und wurde
 nie gegen heutige Sicherheitsnormen geprüft. Dieser Nachbau ist eine **1:1-Kopie eines historischen Entwurfs**. Die
@@ -30,7 +30,7 @@ weitergibt oder verkauft, braucht sie. Das ist keine Rechtsberatung.
 | ERC | 0 Verstöße |
 | DRC (Regel 0,25 mm) | 0 Fehler, 0 offene Verbindungen, 0 Abweichungen Schaltplan/Platine |
 | Netz gegen Kleinspannung (Kupfer-Kupfer) | **über 8 mm** (alle Netzleiter-Netze gegen 5-V- und ±15-V-Netze) |
-| Netz primär gegeneinander (SW_A gegen SW_B) | Rev0.2: **5,67 mm** (Bahn gegen Bahn); Rev0.1 hatte 3,75 mm |
+| Netz primär gegeneinander (SW_A gegen SW_B) | Rev0.3: Bahnen 4,0 bis 5,67 mm, benachbarte Klemmenpole 2,4 mm (Raster RM5); Rev0.1 hatte 3,75 mm |
 | Netz primär, Anschluss 8 gegen Anschluss 9 | 6,87 mm |
 | Fertigung | Gerber, Bohr- und Positionsdaten, 1:1-Ausdruck vorhanden |
 
@@ -73,6 +73,8 @@ Diese Punkte lassen sich nur am Gerät klären; kein Gate gilt als passiert, sol
   nicht im Repo (Urheberrecht).
 
 ## Versionen
+
+**Rev0.3** ersetzt die Lötösen der 230-V-Primärseite (Klemmen 1–9: Netzanschluss, Netzschalter, Trafo-Eingang) durch vier Schraubklemmen RM5,0 (X1 Pole 1–2, X2 Pole 3–4, X3 Pole 5–6, X4 Pole 7–9). Der Pad-Abstand benachbarter Pole ist durch das Raster gegeben: 2,4 mm Kante zu Kante (L und N liegen in X3 und X4 nebeneinander). Die Klemmen sind für Netzspannung gebaut; ob die Leiterplatte dort die heutigen Kriechstrecken einhält, hängt wie bei jedem Klemmenblock am Klemmenhersteller und ist hier nicht nachgewiesen. Bahnen zwischen den Netzleitern: mindestens 4,0 mm.
 
 **Rev0.1** ist die historische 1:1-Kopie (Release `Rev0.1`). **Rev0.2** ändert nur die Netzseite: SW_B ist von SW_A und vom Pad F1.1 weiter weggezogen (SW_A/SW_B mindestens 5,67 mm). Jede Layoutänderung ist ein neuer Versionsstand: Dateien umbenannt, Version auf dem Bestückungsdruck, eigenes Release.
 

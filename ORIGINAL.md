@@ -62,7 +62,7 @@ im Plan ist an dieser Stelle schlecht lesbar, siehe „Offen“.
 * Die beiden Massen (5-V-Zweig: Anschlüsse 15/18; ±15-V-Zweig: 13/21) sind im Plan
   **nicht** verbunden und bleiben es auch hier. Sie treffen sich erst außerhalb
   der Platine, vermutlich auf der Hauptplatine.
-* Trafo T1, Netzschalter und Batterie sind nicht auf der Platine und stehen im
+* Trafo T1, Netzschalter und Batterie sind nicht auf der Platine (ab Rev0.3 hängen Netz, Schalter und Trafo-Eingang an Schraubklemmen RM5 statt Lötösen) und stehen im
   Schaltplan nur als externe Symbole.
 
 ## Offen / nicht belegt

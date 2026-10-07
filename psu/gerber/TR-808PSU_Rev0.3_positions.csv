@@ -25,15 +25,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "F4","250mAT","FuseClip_5x20_TF785",107.150000,-98.065000,0.000000,top
 "IC1","uA7805","TO-220-3_Vertical",51.900000,-47.135000,0.000000,top
 "IC2","TA7179P","DIP-14_W7.62mm",99.880000,-71.795000,0.000000,top
-"P1","1","Terminal_Pin",27.620000,-48.605000,0.000000,top
-"P2","2","Terminal_Pin",27.620000,-55.625000,0.000000,top
-"P3","3","Terminal_Pin",27.620000,-67.215000,0.000000,top
-"P4","4","Terminal_Pin",27.620000,-74.395000,0.000000,top
-"P5","5","Terminal_Pin",27.620000,-86.255000,0.000000,top
-"P6","6","Terminal_Pin",27.620000,-98.325000,0.000000,top
-"P7","7","Terminal_Pin",27.620000,-104.965000,0.000000,top
-"P8","8","Terminal_Pin",27.620000,-117.205000,0.000000,top
-"P9","9","Terminal_Pin",42.040000,-131.625000,0.000000,top
 "P10","10","Terminal_Pin",55.800000,-131.625000,0.000000,top
 "P11","11","Terminal_Pin",66.350000,-131.625000,0.000000,top
 "P12","12","Terminal_Pin",76.910000,-131.625000,0.000000,top
@@ -56,3 +47,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R5","3.3","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",112.670000,-77.935000,90.000000,top
 "R6","220","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",114.230000,-57.365000,90.000000,top
 "R7","47","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",72.580000,-47.290000,0.000000,top
+"X1","2P RM5","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",27.620000,-53.600000,90.000000,top
+"X2","2P RM5","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",27.620000,-72.200000,90.000000,top
+"X3","2P RM5","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",27.620000,-91.250000,90.000000,top
+"X4","3P RM5","TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal",27.620000,-114.790000,90.000000,top
