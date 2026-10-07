@@ -12,4 +12,7 @@
 	(fp_rect (start -3.3 -3.6) (end 3.3 26.1) (stroke (width 0.1) (type default)) (fill no) (layer "F.Fab"))
 	(fp_rect (start -3.5 -3.8) (end 3.5 26.3) (stroke (width 0.12) (type default)) (fill no) (layer "F.SilkS"))
 	(fp_rect (start -3.9 -4.2) (end 3.9 26.7) (stroke (width 0.05) (type default)) (fill no) (layer "F.CrtYd"))
+	(model "${KIPRJMOD}/TR808PSU.3dshapes/FuseClip_5x20_TF785.wrl"
+		(offset (xyz 0 0 0)) (scale (xyz 0.3937 0.3937 0.3937)) (rotate (xyz 0 0 0))
+	)
 )

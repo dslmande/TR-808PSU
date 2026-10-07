@@ -1627,6 +1627,17 @@
 			(uuid "267ca994-76e9-4047-976f-a7250eac59e9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/FuseClip_5x20_TF785.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -2156,6 +2167,17 @@
 			(uuid "4382adc9-ffcc-49c0-8a20-321abaa0bbc9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/FuseClip_5x20_TF785.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -2414,6 +2436,17 @@
 			(uuid "bac1dacc-3586-465f-bf94-d3026838fd98")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/FuseClip_5x20_TF785.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -6115,6 +6148,17 @@
 			(uuid "34c97699-0055-4867-9079-f312e12d93b4")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/FuseClip_5x20_TF785.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
