@@ -51,8 +51,9 @@ Stand: **Rev0.1**, nicht gefertigt, nicht am Gerät erprobt.
 * **Netz gegen Kleinspannung:** kleinster Abstand 6,5 mm (`tools/pcb/netzabstand.py psu/TR-808PSU_Rev0.1.kicad_pcb /MAINS_A /MAINS_B /SW_A /SW_B /PRI_8 /PRI_9`).
 * **Netzliste gegen das Schaltbild:** vom Schaltbild von Hand gelesen und am
   Plot gegengesehen; kein unabhängiger Abgleich, siehe „Offen“ in ORIGINAL.md.
-* Bahnbreite 1,0 mm (GND5, GND15 und COL1 wegen enger Pads 0,3 mm), also wie das Original
-  deutlich breiter als ein Signalleiter; geglättet mit dem Skill pcb-glaetten (45°, Bögen,
+* Bahnbreite 1,0 mm überall (`tools/pcb/verbreitern.py` setzt auch die vom Router schmal
+  gelassenen Netze GND5, GND15 und COL1 auf 1,0 mm, nur 7 Stücke an engen Pads bleiben bei
+  0,5–0,8 mm); Haarnadeln und Stummel in den Pads sind entfernt (`tools/pcb/padstummel.py`); geglättet mit dem Skill pcb-glaetten (45°, Bögen,
   `tools/pcb/glaetten.py`, in `make.py` eingehängt). Keine Masseflächen, wie im Original.
   Acht Durchkontaktierungen, sonst läuft alles auf der Lötseite und wenigen Stücken der
   Vorderseite (im Original gab es dafür die Drahtbrücke J1).
