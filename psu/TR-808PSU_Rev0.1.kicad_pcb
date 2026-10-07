@@ -384,6 +384,17 @@
 			(uuid "f61c5cf3-945c-4dad-a668-0901eadc09b8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -566,6 +577,17 @@
 			(uuid "edf5c969-ff1f-4075-a4bb-5baa6848a16f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"
 		(layer "F.Cu")
@@ -1151,7 +1173,7 @@
 			(uuid "7d633c59-20e1-424a-ae88-2cc4d14bebba")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1714,6 +1736,17 @@
 			(uuid "840188b7-19a4-4253-961a-c66e06007105")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"
 		(layer "F.Cu")
@@ -2254,6 +2287,17 @@
 			(uuid "517fe879-fd14-4675-9f90-492239e41a72")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -2330,6 +2374,17 @@
 			(uuid "123d7f76-ebd7-46d5-8362-51c51d056e72")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "TR808PSU:FuseClip_5x20_TF785"
 		(layer "F.Cu")
@@ -2523,6 +2578,17 @@
 			(uuid "031ccdc4-0495-4387-83c8-17f1ade3bc4b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
@@ -3280,6 +3346,17 @@
 			(uuid "b4ff2b77-9da5-40ea-86a8-205a0758bc06")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -3356,6 +3433,17 @@
 			(uuid "f16bcfc0-e313-45ac-ac4b-71bce81b720b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -3538,6 +3626,17 @@
 			(uuid "e084d244-47a0-4f52-b9a1-3548ddb634aa")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -4034,6 +4133,17 @@
 			(uuid "c8d40d9c-e29a-4b16-bdb0-7dbffb19be48")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -4110,6 +4220,17 @@
 			(uuid "28bb66bc-bc34-4d50-ad00-f7aa6b64ea79")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Rect_L10.3mm_W5.0mm_P7.50mm_MKS4"
 		(layer "F.Cu")
@@ -4616,6 +4737,17 @@
 			(uuid "9fab5192-750d-4b0c-803e-0725379f30dd")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
@@ -4842,7 +4974,7 @@
 			(uuid "75e9564a-65ff-4794-82a6-2a3f9facd6ff")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5120,6 +5252,17 @@
 			(uuid "faf66510-88fa-4ecb-9c12-0f591442093a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -5778,6 +5921,17 @@
 			(uuid "717ca1ab-7902-4c4d-89d1-9a8afe7696b3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -5854,6 +6008,17 @@
 			(uuid "6fccdaac-a923-4367-a65b-32ff89d11534")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 		(layer "F.Cu")
@@ -6235,6 +6400,17 @@
 			(uuid "ae07b76a-df5c-4b20-a83b-44384e9bb7e3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -6417,6 +6593,17 @@
 			(uuid "12dd73e8-7aa3-43a1-a382-a5b9756ff671")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
@@ -7061,6 +7248,17 @@
 			(uuid "39b2f5bd-00f6-431e-83af-7bff81ae2639")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -8447,6 +8645,17 @@
 			(uuid "0e8c4987-5480-41f4-84d8-011ebdc42c89")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
@@ -9234,6 +9443,17 @@
 			(uuid "9f56907d-8044-4616-bc85-ccd4ada5a4c8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Diode_THT:Diode_Bridge_Round_D9.8mm"
 		(layer "F.Cu")
@@ -9508,6 +9728,17 @@
 			(uuid "2089289e-cb04-46e9-a0f4-45cd78de9f96")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TR808PSU:Terminal_Pin"
 		(layer "F.Cu")
@@ -9584,6 +9815,17 @@
 			(uuid "759bd44a-d5a9-4ca2-8c82-bdd505144b1b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TR808PSU.3dshapes/Terminal_Pin.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.3937 0.3937 0.3937)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
@@ -9810,7 +10052,7 @@
 			(uuid "4b5c269e-a30b-4744-8318-a05c766d9c61")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
 			(offset
 				(xyz 0 0 0)
 			)

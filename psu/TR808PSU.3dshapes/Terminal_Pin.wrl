@@ -1,0 +1,26 @@
+#VRML V2.0 utf8
+# Anschlussfahne (generiert, tools/pcb/modell_pin.py)
+Transform { translation 0.000 0.000 0.800 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.78 0.78 0.76 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 1.400 1.400 3.200 } } }
+Transform { translation 0.000 0.000 1.600 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.78 0.78 0.76 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 3.200 4.200 0.500 } } }
+Transform { translation 4.500 0.000 1.600 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.78 0.78 0.76 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 3.000 4.200 0.500 } } }
+Transform { translation 9.300 0.000 1.600 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.78 0.78 0.76 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 1.400 4.200 0.500 } } }
+Transform { translation 7.300 1.425 1.600 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.78 0.78 0.76 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 2.600 1.350 0.500 } } }
+Transform { translation 7.300 -1.425 1.600 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.78 0.78 0.76 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 2.600 1.350 0.500 } } }
+Transform { translation 7.100 1.950 2.000 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.84 0.84 0.8 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 5.800 0.300 0.800 } } }
+Transform { translation 7.100 -1.950 2.000 children Shape {
+  appearance Appearance { material Material { diffuseColor 0.84 0.84 0.8 specularColor 0.95 0.95 0.95 shininess 0.9 } }
+  geometry Box { size 5.800 0.300 0.800 } } }
