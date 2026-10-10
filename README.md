@@ -5,33 +5,50 @@
 > **This board has not been manufactured, assembled or tested.** It has not been checked
 > against the real unit, and it has not been tested against any safety standard. The design
 > is a copy of a historical (1984–86) circuit board. It is connected to **mains voltage
-> (230 V)**, which can kill. Use at your own risk, and only if you know what you are doing.
+> (230 V, or 110 V for the second variant)**, which can kill. Use at your own risk, and only if you know what you are doing.
 > Dimensions are derived from a scan (±3 %), see [VERIFICATION.md](VERIFICATION.md).
 
 KiCad rebuild of the power supply board **PS3116 (PCB 291-405A)** of the Roland TR-808:
 schematic redrawn from the 1981 service manual, board with outline, holes, terminals and
-component positions taken from the original component layout. **220/240 V** variant
-(PS3116-054).
+component positions taken from the original component layout. Two variants of the same board:
 
-Current version: **Rev0.3**.
+| Variant | Original board | Mains | Transformer | Files |
+|---|---|---|---|---|
+| **230 V** | PS3116-054 | 220/240 V | N-219D | `TR-808PSU_Rev0.4*` |
+| **110 V** | PS3116-051 | 100/117 V (built for 110 V, 117 V tap) | N-218C | `TR-808PSU_Rev0.4-110V*` |
+
+Both use the same copper; they differ in parts (fuses, transformer, switch, C1) and in the
+silkscreen mark (`PS3116-054  230V` / `PS3116-051  110V`), so the boards cannot be mixed up.
+Current version: **Rev0.4**.
 
 | Version | Contents |
 |---|---|
 | [Rev0.1](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.1) | historical 1:1 copy of the 1984–86 original; switched mains conductors SW_A/SW_B 3.75 mm apart |
 | [Rev0.2](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.2) | as Rev0.1, but SW_B moved away on the mains side: SW_A/SW_B at least 5.67 mm apart |
-| **Rev0.3** (current) | as Rev0.2, but the 230 V primary side (terminals 1–9: mains, switch, transformer input) uses **RM5.0 screw terminals** (Phoenix MKDS 1,5) instead of solder lugs; terminals 10–22 (low voltage) stay solder lugs |
+| [Rev0.3](https://github.com/dslmande/TR-808PSU/releases/tag/Rev0.3) | as Rev0.2, but the 230 V primary side (terminals 1–9: mains, switch, transformer input) uses **RM5.0 screw terminals** (Phoenix MKDS 1,5) instead of solder lugs; terminals 10–22 (low voltage) stay solder lugs |
+| **Rev0.4** (current, 230 V) / **Rev0.4-110V** | as Rev0.3, but all board corners rounded to R5 (house rule), voltage mark on the silkscreen; the 110 V variant is new (fuses 0.5 A, transformer N-218C) |
 
-## Pictures
+## Pictures (230 V)
 
-![3D, oblique](psu/TR-808PSU_Rev0.3_3d_schraeg.png)
+![3D, oblique](psu/TR-808PSU_Rev0.4_3d_schraeg.png)
 
-![3D, top](psu/TR-808PSU_Rev0.3_3d_oben.png)
+![3D, top](psu/TR-808PSU_Rev0.4_3d_oben.png)
 
-![Board: solder side blue, component side red](psu/TR-808PSU_Rev0.3_pcb_ansicht.png)
+![Board: solder side blue, component side red](psu/TR-808PSU_Rev0.4_pcb_ansicht.png)
 
-![Silkscreen](psu/TR-808PSU_Rev0.3_siebdruck.png)
+![Silkscreen](psu/TR-808PSU_Rev0.4_siebdruck.png)
 
-More: [schematic (PDF)](psu/TR-808PSU_Rev0.3_schaltplan.pdf) · [bill of materials](BOM.md) ([CSV](psu/TR-808PSU_Rev0.3_bom.csv)) · [1:1 printout (A4)](psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf) · [Gerber (zip)](psu/TR-808PSU_Rev0.3_gerber.zip) · [assembly drawing (PDF)](psu/TR-808PSU_Rev0.3_assembly.pdf) · [original copper vs. tracks](psu/TR-808PSU_Rev0.3_ueberlagerung.png) · [verification](VERIFICATION.md) · [releases](https://github.com/dslmande/TR-808PSU/releases)
+### 110 V variant
+
+![3D, oblique](psu/TR-808PSU_Rev0.4-110V_3d_schraeg.png)
+
+![3D, top](psu/TR-808PSU_Rev0.4-110V_3d_oben.png)
+
+![Board: solder side blue, component side red](psu/TR-808PSU_Rev0.4-110V_pcb_ansicht.png)
+
+![Silkscreen](psu/TR-808PSU_Rev0.4-110V_siebdruck.png)
+
+More (230 V; for 110 V use the `Rev0.4-110V` files, [BOM-110V.md](BOM-110V.md)): [schematic (PDF)](psu/TR-808PSU_Rev0.4_schaltplan.pdf) · [bill of materials](BOM.md) ([CSV](psu/TR-808PSU_Rev0.4_bom.csv)) · [1:1 printout (A4)](psu/TR-808PSU_Rev0.4_ausdruck_1zu1.pdf) · [Gerber (zip)](psu/TR-808PSU_Rev0.4_gerber.zip) · [assembly drawing (PDF)](psu/TR-808PSU_Rev0.4_assembly.pdf) · [original copper vs. tracks](psu/TR-808PSU_Rev0.4_ueberlagerung.png) · [verification](VERIFICATION.md) · [releases](https://github.com/dslmande/TR-808PSU/releases)
 
 ## Files
 
@@ -39,16 +56,16 @@ More: [schematic (PDF)](psu/TR-808PSU_Rev0.3_schaltplan.pdf) · [bill of materia
 |---|---|
 | [ORIGINAL.md](ORIGINAL.md) | source, manual pages, variants, circuit description, open points |
 | [VERIFICATION.md](VERIFICATION.md) | standards context (DIN EN IEC 62368-1, IEC 60664-1), verification, validation, findings, risks |
-| [BOM.md](BOM.md), `psu/TR-808PSU_Rev0.3_bom.csv` | bill of materials (readable, with function and original parts; CSV) |
-| `psu/TR-808PSU_Rev0.3.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad project |
-| `psu/TR-808PSU_Rev0.3_schaltplan.pdf` | schematic plot |
-| `psu/gerber/`, `psu/TR-808PSU_Rev0.3_gerber.zip` | Gerber, drill data, position file |
-| `psu/TR-808PSU_Rev0.3_ausdruck_1zu1.pdf` | 1:1 printout on A4 landscape: component side, solder side, drill template (print at 100 %, check the measuring bar) |
-| `psu/TR-808PSU_Rev0.3_3d_oben.png`, `_3d_schraeg.png` | 3D views (KiCad ray tracing; own models for fuse holders and terminal lugs) |
-| `psu/TR-808PSU_Rev0.3_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | board plots |
+| [BOM.md](BOM.md) / [BOM-110V.md](BOM-110V.md), `psu/TR-808PSU_Rev0.4_bom.csv` | bill of materials (readable, with function and original parts; CSV) |
+| `psu/TR-808PSU_Rev0.4.kicad_pro` / `.kicad_sch` / `.kicad_pcb` (and `…Rev0.4-110V…`) | KiCad project |
+| `psu/TR-808PSU_Rev0.4_schaltplan.pdf` | schematic plot |
+| `psu/gerber_TR-808PSU_Rev0.4/`, `psu/TR-808PSU_Rev0.4_gerber.zip` | Gerber, drill data, position file |
+| `psu/TR-808PSU_Rev0.4_ausdruck_1zu1.pdf` | 1:1 printout on A4 landscape: component side, solder side, drill template (print at 100 %, check the measuring bar) |
+| `psu/TR-808PSU_Rev0.4_3d_oben.png`, `_3d_schraeg.png` | 3D views (KiCad ray tracing; own models for fuse holders and terminal lugs) |
+| `psu/TR-808PSU_Rev0.4_pcb_top.pdf`, `_pcb_bottom.pdf`, `_assembly.pdf` | board plots |
 | `psu/placement.json`, `psu/placement_scan.json` | component positions from the component layout, resp. aligned to the scan (mm) |
 | `psu/kupfer.npz`, `psu/leitkarte.npz` | copper mask and net regions of the original (from the scan) |
-| `psu/TR-808PSU_Rev0.3_ueberlagerung.png` | original copper against the tracks of this board |
+| `psu/TR-808PSU_Rev0.4_ueberlagerung.png` | original copper against the tracks of this board |
 
 File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German for schematic, printout, copper and guide map.
 
@@ -57,7 +74,7 @@ File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German fo
 * **Circuit:** designators (C1–C16, R1–R7, D1–D4, F1–F4, Q1, Q2, IC1, IC2), values and
   terminal numbers 1–22 as in the original. The schematic is drawn like the original
   (mains and switch left, transformer, +5 V branch, ±15 V branch).
-* **Board:** outline, four mounting holes, six heat sink holes (one pair per regulator,
+* **Board:** outline (from Rev0.4 with R5 corners instead of the sharp corners of the original), four mounting holes, six heat sink holes (one pair per regulator,
   21.3 mm apart, centred) and three M3 screw holes for the regulators, RM5 screw terminals
   (terminals 1–9), terminal pins (10–22), fuse clips and all components at the positions of
   the original, fine-tuned to the copper of the scan. The original is single
@@ -68,16 +85,16 @@ File names with `schaltplan`, `ausdruck`, `kupfer` and `leitkarte` are German fo
   almost blocked. The result is a DRC-clean board that follows the original where the scan
   allows. **37 % of the track length lies on original copper**, the rest is routed anew
   (wide tracks and smoothing move the paths away from the original);
-  `psu/TR-808PSU_Rev0.3_ueberlagerung.png` shows the original copper (grey) and the tracks
+  `psu/TR-808PSU_Rev0.4_ueberlagerung.png` shows the original copper (grey) and the tracks
   (red solder side, blue component side). Pure tracing without the router fails because of
   the scan quality (shorts between neighbouring tracks, pad positions only within ±0.3 mm).
 * **Dimensions** are derived from the component layout (the manual has no scale), tolerance
   about ±3 %. Measure against a real board before manufacturing. Details and further open
   points in [ORIGINAL.md](ORIGINAL.md).
 
-## Status (Rev0.3, 7 Oct 2026)
+## Status (Rev0.4, 10 Oct 2026; both variants)
 
-* **ERC:** 0 violations (`psu/TR-808PSU_Rev0.3-erc.rpt`).
+* **ERC:** 0 violations (`psu/TR-808PSU_Rev0.4-erc.rpt`).
 * **DRC (clearance rule 0.25 mm):** 0 errors; warnings only (4 courtyard overlaps, 1
   silkscreen overlap, 7 footprint deviations from the library because of the polarity bars);
   0 unconnected items; schematic/board parity 0.

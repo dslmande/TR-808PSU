@@ -27,8 +27,10 @@ The board is the same for all mains voltages; only the fitting and accessories d
 | 220 V | PS3116-054 | N-219D | SDG5P-502 | ECQ-U2A473MF | CEE 250 mAT |
 | 240 V | PS3116-054 | N-219D | SDG5P-502 | ECQ-U2A473MF | CEE 250 mAT |
 
-**This repo models the 220/240 V variant (PS3116-054).** For 100/117 V only the values of C1
-and F1–F4 change (noted as text in the schematic). According to the manual F2 and F3 are
+**This repo models both: the 220/240 V variant (PS3116-054, files `Rev0.4`) and, from Rev0.4,
+the 100/117 V variant (PS3116-051) built for 110 V (files `Rev0.4-110V`, transformer N-218C,
+117 V tap; 110 V is 6 % below its rating).** Only parts change (C1, F1–F4, T1, switch); the copper
+is identical. The schematic of each variant carries its own values. According to the manual F2 and F3 are
 fitted differently on late 100/117 V units; the note in the plan is hard to read at that
 spot, see "Open".
 

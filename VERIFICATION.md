@@ -1,4 +1,4 @@
-# Verification against standards and acceptance criteria (Rev0.3, 7 Oct 2026)
+# Verification against standards and acceptance criteria (Rev0.4, 10 Oct 2026)
 
 > **UNTESTED.** Nothing on this page is a conformity statement. The board has not been
 > manufactured or tested; the standards were researched only to see where a historical
@@ -81,6 +81,14 @@ These points can only be settled on the unit; no gate counts as passed while the
   assignment but are not in the repo (copyright).
 
 ## Versions
+
+**Rev0.4** (230 V) and **Rev0.4-110V** change no tracks and no parts positions: all board corners
+are rounded to R5 (house rule; DRC unchanged: 0 errors, 0 unconnected, parity 0 for both), a
+voltage mark is added to the silkscreen, and the 110 V variant takes the 100/117 V parts of the
+original (fuses 0.5 A, transformer N-218C, switch SDG5P-001). The mains clearance and creepage
+figures above apply to both, since the copper is identical; the lower voltage only relaxes the
+requirement and is not separately assessed. The 110 V transformer is a 117 V part, 110 V is 6 %
+below its rating (not measured).
 
 **Rev0.3** replaces the solder lugs of the 230 V primary side (terminals 1–9: mains lead,
 mains switch, transformer input) with four RM5.0 screw terminals (X1 poles 1–2, X2 poles 3–4,
