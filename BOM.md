@@ -1,8 +1,8 @@
-# Bill of materials TR-808PSU Rev0.4
+# Bill of materials TR-808PSU Rev0.5
 
 > **UNTESTED.** Nothing here has been ordered, built or measured.
 
-Generated from the schematic (`psu/TR-808PSU_Rev0.4_bom.csv`). **No prices, no suppliers:** none of that is checked.
+Generated from the schematic (`psu/TR-808PSU_Rev0.5_bom.csv`). **No prices, no suppliers:** none of that is checked.
 Parts of the power supply per the service manual (PS3116-054, 220/240 V); the "Remark" column names the original part where the manual gives one.
 
 | Designators | Qty | Value | Function | Package (KiCad) | Remark |
